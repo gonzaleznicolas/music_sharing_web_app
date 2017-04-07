@@ -20,13 +20,12 @@
                 <td><a href="http://projbsn.cpsc.ucalgary.ca/loginform.php">Login Form</a></td>
             </tr>
         </table>
-        
+        <br>
         TODO: Two input fields: username, password<br>
         Mods and admins can only be created off the web. only regular users can sign up like this.<br>
-        
-        Two implementations to decide on:<br>
-        option 1- username must be a unique string.<br>
-        option 2- You do not get a username. instead the username field is auto-filled with the next available <br>incremented integer in from the user table. this integer will act as your username.<br>
+        <br>
+        Implementation:<br>
+        You do not get a string username. instead the username field is auto-filled with the next available <br>incremented integer from the user table. this integer will act as your username.<br>
         
         <?php
             $servername = "localhost";

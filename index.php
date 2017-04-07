@@ -25,6 +25,21 @@
                 <td><a href="http://projbsn.cpsc.ucalgary.ca/newuserform.php">New User Form</a></td>
             </tr>
         </table>
+        <br>
+        <br>
+        <br>
+        List of pages incase they are not linked to yet:<br>
+        <a href="http://projbsn.cpsc.ucalgary.ca/index.php">Home Page</a><br>
+        <a href="http://projbsn.cpsc.ucalgary.ca/loginform.php">Login Form</a><br>
+        <a href="http://projbsn.cpsc.ucalgary.ca/newuserform.php">New User Form</a><br>
+        <a href="http://projbsn.cpsc.ucalgary.ca/adminpage.php">Admin Page</a><br>
+        <a href="http://projbsn.cpsc.ucalgary.ca/moderatorpage.php">Moderator Page</a><br>
+        <a href="http://projbsn.cpsc.ucalgary.ca/userpage.php">User Page</a><br>
+        <a href="http://projbsn.cpsc.ucalgary.ca/searchsong.php">Search Song</a><br>
+        <a href="http://projbsn.cpsc.ucalgary.ca/searchalbum.php">Search Album</a><br>
+        <a href="http://projbsn.cpsc.ucalgary.ca/searchartist.php">Search Artist</a><br>
+        <a href="http://projbsn.cpsc.ucalgary.ca/searchreview.php">searchreview</a><br>
+        <a href="http://projbsn.cpsc.ucalgary.ca/index.php">null</a><br>
         
         
         
