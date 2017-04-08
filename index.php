@@ -4,6 +4,7 @@
 -->
 <html>
     <head>
+        <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
         <title>Music Sharing-Home Page</title>
         <style>
@@ -13,21 +14,16 @@
     <body>
         Reference link: <a href="http://projbsn.cpsc.ucalgary.ca/ref/">Mitch Proj. Delete me later!</a><br>
         <hr>
-        <h3>Home Page</h3>
-        <h4>This website is for sharing musical tastes with others. Rate, review and recommend songs and artists to others... and more</h4>
-        
-        You must be logged in to access the website:
-        <table>
-            <tr>
-                <td><a href="http://projbsn.cpsc.ucalgary.ca/loginform.php">Login Form</a></td>
-            </tr>
-            <tr>
-                <td><a href="http://projbsn.cpsc.ucalgary.ca/newuserform.php">New User Form</a></td>
-            </tr>
-        </table>
+        <h3>Music Share</h3>
+        <h4>Listen - Rate - Review - Recommend - Enjoy</h4>
+        By: Brenton Kruger, Sean Hoey, Nicolas Gonzalez
+        <br><br>
+        <div class="image"><img src="images/play.png" alt="logo" width="300" height="300"></div>
         <br>
-        <br>
-        <br>
+        <a href="http://projbsn.cpsc.ucalgary.ca/newuserform.php">New User</a>
+        &nbsp&nbsp&nbsp&nbsp
+        <a href="http://projbsn.cpsc.ucalgary.ca/loginform.php">Login</a>
+        <br><br>
         List of pages incase they are not linked to yet:<br>
         <a href="http://projbsn.cpsc.ucalgary.ca/index.php">Home Page</a><br>
         <a href="http://projbsn.cpsc.ucalgary.ca/loginform.php">Login Form</a><br>
@@ -39,8 +35,7 @@
         <a href="http://projbsn.cpsc.ucalgary.ca/searchalbum.php">Search Album</a><br>
         <a href="http://projbsn.cpsc.ucalgary.ca/searchartist.php">Search Artist</a><br>
         <a href="http://projbsn.cpsc.ucalgary.ca/searchreview.php">searchreview</a><br>
-        <a href="http://projbsn.cpsc.ucalgary.ca/index.php">null</a><br>
-        
+        <br>        
         
         
         <?php
