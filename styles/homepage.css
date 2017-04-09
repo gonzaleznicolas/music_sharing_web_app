@@ -1,0 +1,32 @@
+body{
+    background-color: rgba(9, 19, 10, 0.48);
+    text-align: center;
+    color:rgb(56,244,132);
+    font-family: Century Gothic, sans-serif;
+}
+
+h3{
+    font-size: 70px;
+    font-weight: 100;
+}
+
+h4{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+table{
+  text-align: center;  
+}
+
+tr{
+    text-align: center;   
+}
+
+.one{
+    display:flex;
+}
+
+div{
+    margin: auto;
+}
