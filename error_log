@@ -1124,3 +1124,174 @@ Stack trace:
 [09-Apr-2017 16:47:04 UTC] PHP Notice:  Use of undefined constant hi - assumed 'hi' in /home/projbsn/public_html/searchartist.php on line 168
 [09-Apr-2017 16:47:06 UTC] PHP Notice:  Use of undefined constant hi - assumed 'hi' in /home/projbsn/public_html/searchartist.php on line 168
 [09-Apr-2017 16:47:12 UTC] PHP Notice:  Use of undefined constant hi - assumed 'hi' in /home/projbsn/public_html/searchartist.php on line 168
+[09-Apr-2017 16:56:04 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/adminpage.php on line 5
+[09-Apr-2017 16:57:20 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[09-Apr-2017 16:57:20 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 16:57:47 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 17:00:17 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 17:15:02 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 17:16:07 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 17:16:07 UTC] PHP Notice:  Undefined index: Content in /home/projbsn/public_html/userpage.php on line 83
+[09-Apr-2017 17:16:44 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 17:17:44 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 17:18:25 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 17:18:56 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 17:22:33 UTC] PHP Notice:  Undefined variable: searchString in /home/projbsn/public_html/searchreview.php on line 172
+[09-Apr-2017 17:23:10 UTC] PHP Notice:  Undefined variable: searchString in /home/projbsn/public_html/searchreview.php on line 58
+[09-Apr-2017 17:23:10 UTC] PHP Notice:  Undefined variable: searchString in /home/projbsn/public_html/searchreview.php on line 172
+[09-Apr-2017 17:23:11 UTC] PHP Notice:  Undefined variable: searchString in /home/projbsn/public_html/searchreview.php on line 58
+[09-Apr-2017 17:23:11 UTC] PHP Notice:  Undefined variable: searchString in /home/projbsn/public_html/searchreview.php on line 172
+[09-Apr-2017 17:23:53 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 17:24:36 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 17:25:14 UTC] PHP Notice:  Use of undefined constant option - assumed 'option' in /home/projbsn/public_html/searchreview.php on line 58
+[09-Apr-2017 17:25:14 UTC] PHP Notice:  Undefined variable: searchString in /home/projbsn/public_html/searchreview.php on line 63
+[09-Apr-2017 17:25:14 UTC] PHP Notice:  Undefined variable: searchString in /home/projbsn/public_html/searchreview.php on line 177
+[09-Apr-2017 17:25:19 UTC] PHP Notice:  Use of undefined constant option - assumed 'option' in /home/projbsn/public_html/searchreview.php on line 58
+[09-Apr-2017 17:25:19 UTC] PHP Notice:  Undefined variable: searchString in /home/projbsn/public_html/searchreview.php on line 63
+[09-Apr-2017 17:25:19 UTC] PHP Notice:  Undefined variable: searchString in /home/projbsn/public_html/searchreview.php on line 177
+[09-Apr-2017 17:25:21 UTC] PHP Notice:  Use of undefined constant option - assumed 'option' in /home/projbsn/public_html/searchreview.php on line 58
+[09-Apr-2017 17:25:21 UTC] PHP Notice:  Undefined variable: searchString in /home/projbsn/public_html/searchreview.php on line 63
+[09-Apr-2017 17:25:21 UTC] PHP Notice:  Undefined variable: searchString in /home/projbsn/public_html/searchreview.php on line 177
+[09-Apr-2017 17:25:23 UTC] PHP Notice:  Use of undefined constant option - assumed 'option' in /home/projbsn/public_html/searchreview.php on line 58
+[09-Apr-2017 17:25:23 UTC] PHP Notice:  Undefined variable: searchString in /home/projbsn/public_html/searchreview.php on line 63
+[09-Apr-2017 17:25:23 UTC] PHP Notice:  Undefined variable: searchString in /home/projbsn/public_html/searchreview.php on line 177
+[09-Apr-2017 17:25:58 UTC] PHP Notice:  Use of undefined constant option - assumed 'option' in /home/projbsn/public_html/searchreview.php on line 58
+[09-Apr-2017 17:26:01 UTC] PHP Notice:  Use of undefined constant option - assumed 'option' in /home/projbsn/public_html/searchreview.php on line 58
+[09-Apr-2017 17:26:05 UTC] PHP Notice:  Use of undefined constant option - assumed 'option' in /home/projbsn/public_html/searchreview.php on line 58
+[09-Apr-2017 17:26:06 UTC] PHP Notice:  Use of undefined constant option - assumed 'option' in /home/projbsn/public_html/searchreview.php on line 58
+[09-Apr-2017 17:26:08 UTC] PHP Notice:  Use of undefined constant option - assumed 'option' in /home/projbsn/public_html/searchreview.php on line 58
+[09-Apr-2017 17:26:11 UTC] PHP Notice:  Use of undefined constant option - assumed 'option' in /home/projbsn/public_html/searchreview.php on line 58
+[09-Apr-2017 17:28:01 UTC] PHP Parse error:  syntax error, unexpected '*', expecting end of file in /home/projbsn/public_html/searchreview.php on line 237
+[09-Apr-2017 17:31:34 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/projbsn/public_html/userpage.php on line 104
+[09-Apr-2017 17:31:35 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/projbsn/public_html/userpage.php on line 104
+[09-Apr-2017 17:31:59 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 17:33:07 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 17:36:57 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 17:37:06 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 17:38:05 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 17:38:23 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/projbsn/public_html/searchreview.php on line 77
+[09-Apr-2017 17:39:19 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 17:39:44 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 17:40:55 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 17:41:35 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 17:42:34 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 17:46:39 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[09-Apr-2017 17:46:39 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[09-Apr-2017 17:46:39 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 17:47:52 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/adminpage.php on line 5
+[09-Apr-2017 17:54:21 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/userpage.php on line 5
+[09-Apr-2017 18:07:17 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/userpage.php on line 5
+[09-Apr-2017 18:07:27 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[09-Apr-2017 18:07:27 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[09-Apr-2017 18:07:27 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 18:08:38 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 18:08:39 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 41
+[09-Apr-2017 18:09:27 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 18:13:07 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 18:13:29 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 18:13:30 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 41
+[09-Apr-2017 18:14:59 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/projbsn/public_html/searchreview.php on line 123
+[09-Apr-2017 18:15:08 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/projbsn/public_html/searchreview.php on line 123
+[09-Apr-2017 18:15:15 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[09-Apr-2017 18:15:25 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[09-Apr-2017 18:15:40 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/rate.php on line 41
+[09-Apr-2017 18:15:45 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[09-Apr-2017 18:15:46 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/follow.php on line 41
+[09-Apr-2017 18:15:48 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[09-Apr-2017 18:15:49 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/recommend.php on line 41
+[09-Apr-2017 18:15:49 UTC] PHP Notice:  Undefined variable: t in /home/projbsn/public_html/recommend.php on line 69
+[09-Apr-2017 18:15:49 UTC] PHP Notice:  Undefined variable: t in /home/projbsn/public_html/recommend.php on line 69
+[09-Apr-2017 18:15:51 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[09-Apr-2017 18:15:52 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/follow.php on line 41
+[09-Apr-2017 18:15:53 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[09-Apr-2017 18:15:54 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/recommend.php on line 41
+[09-Apr-2017 18:15:54 UTC] PHP Notice:  Undefined variable: t in /home/projbsn/public_html/recommend.php on line 69
+[09-Apr-2017 18:15:54 UTC] PHP Notice:  Undefined variable: t in /home/projbsn/public_html/recommend.php on line 69
+[09-Apr-2017 18:17:12 UTC] PHP Notice:  Trying to get property of non-object in /home/projbsn/public_html/searchreview.php on line 120
+[09-Apr-2017 18:17:46 UTC] PHP Notice:  Trying to get property of non-object in /home/projbsn/public_html/searchreview.php on line 120
+[09-Apr-2017 18:17:54 UTC] PHP Notice:  Trying to get property of non-object in /home/projbsn/public_html/searchreview.php on line 120
+[09-Apr-2017 18:18:00 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/recommend.php on line 41
+[09-Apr-2017 18:18:00 UTC] PHP Notice:  Undefined variable: t in /home/projbsn/public_html/recommend.php on line 70
+[09-Apr-2017 18:18:00 UTC] PHP Notice:  Undefined variable: t in /home/projbsn/public_html/recommend.php on line 70
+[09-Apr-2017 18:18:01 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[09-Apr-2017 18:18:02 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/follow.php on line 41
+[09-Apr-2017 18:18:03 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[09-Apr-2017 18:18:04 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/rate.php on line 41
+[09-Apr-2017 18:18:04 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[09-Apr-2017 18:18:05 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 41
+[09-Apr-2017 18:18:08 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[09-Apr-2017 18:18:08 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/rate.php on line 41
+[09-Apr-2017 18:18:09 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[09-Apr-2017 18:18:10 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/follow.php on line 41
+[09-Apr-2017 18:18:12 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[09-Apr-2017 18:18:13 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/recommend.php on line 41
+[09-Apr-2017 18:18:13 UTC] PHP Notice:  Undefined variable: t in /home/projbsn/public_html/recommend.php on line 70
+[09-Apr-2017 18:18:13 UTC] PHP Notice:  Undefined variable: t in /home/projbsn/public_html/recommend.php on line 70
+[09-Apr-2017 18:18:16 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[09-Apr-2017 18:19:15 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 41
+[09-Apr-2017 18:19:16 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[09-Apr-2017 18:19:18 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/rate.php on line 41
+[09-Apr-2017 18:19:18 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[09-Apr-2017 18:19:19 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/follow.php on line 41
+[09-Apr-2017 18:19:22 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[09-Apr-2017 18:19:23 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/recommend.php on line 41
+[09-Apr-2017 18:19:23 UTC] PHP Notice:  Undefined variable: t in /home/projbsn/public_html/recommend.php on line 70
+[09-Apr-2017 18:19:23 UTC] PHP Notice:  Undefined variable: t in /home/projbsn/public_html/recommend.php on line 70
+[09-Apr-2017 18:19:25 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[09-Apr-2017 18:21:33 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 41
+[09-Apr-2017 18:21:43 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[09-Apr-2017 18:21:43 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[09-Apr-2017 18:21:43 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[09-Apr-2017 18:21:45 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/follow.php on line 41
+[09-Apr-2017 18:21:45 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[09-Apr-2017 18:22:57 UTC] PHP Notice:  Trying to get property of non-object in /home/projbsn/public_html/searchreview.php on line 120
+[09-Apr-2017 18:23:05 UTC] PHP Notice:  Trying to get property of non-object in /home/projbsn/public_html/searchreview.php on line 120
+[09-Apr-2017 18:23:31 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/follow.php on line 41
+[09-Apr-2017 18:23:39 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/follow.php on line 41
+[09-Apr-2017 18:24:55 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/follow.php on line 41
+[09-Apr-2017 18:31:03 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/follow.php on line 41
+[09-Apr-2017 18:31:16 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/follow.php on line 41
+[09-Apr-2017 18:31:23 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/projbsn/public_html/searchreview.php on line 167
+[09-Apr-2017 18:31:23 UTC] PHP Notice:  Undefined index: Logout in /home/projbsn/public_html/follow.php on line 31
+[09-Apr-2017 18:32:15 UTC] PHP Notice:  Undefined index: Logout in /home/projbsn/public_html/follow.php on line 31
+[09-Apr-2017 18:32:19 UTC] PHP Notice:  Undefined index: Logout in /home/projbsn/public_html/follow.php on line 31
+[09-Apr-2017 18:33:14 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/projbsn/public_html/searchreview.php on line 167
+[09-Apr-2017 18:33:21 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/projbsn/public_html/searchreview.php on line 167
+[09-Apr-2017 18:33:23 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/projbsn/public_html/searchreview.php on line 167
+[09-Apr-2017 18:34:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/projbsn/public_html/searchreview.php on line 183
+[09-Apr-2017 18:34:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/projbsn/public_html/searchreview.php on line 183
+[09-Apr-2017 18:36:15 UTC] PHP Notice:  Undefined variable: albumName in /home/projbsn/public_html/searchreview.php on line 134
+[09-Apr-2017 18:36:59 UTC] PHP Notice:  Undefined variable: albumName in /home/projbsn/public_html/searchreview.php on line 134
+[09-Apr-2017 18:37:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/projbsn/public_html/follow.php on line 137
+[09-Apr-2017 18:37:22 UTC] PHP Notice:  Undefined variable: albumName in /home/projbsn/public_html/searchreview.php on line 135
+[09-Apr-2017 18:37:29 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/projbsn/public_html/follow.php on line 129
+[09-Apr-2017 18:37:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/projbsn/public_html/follow.php on line 129
+[09-Apr-2017 18:37:37 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[09-Apr-2017 18:37:42 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 41
+[09-Apr-2017 18:37:44 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[09-Apr-2017 18:37:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/projbsn/public_html/follow.php on line 129
+[09-Apr-2017 18:38:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/projbsn/public_html/follow.php on line 129
+[09-Apr-2017 18:38:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/projbsn/public_html/follow.php on line 129
+[09-Apr-2017 18:38:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/projbsn/public_html/follow.php on line 129
+[09-Apr-2017 18:38:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/projbsn/public_html/follow.php on line 129
+[09-Apr-2017 18:38:59 UTC] PHP Parse error:  syntax error, unexpected '$followid' (T_VARIABLE), expecting ',' or ';' in /home/projbsn/public_html/follow.php on line 56
+[09-Apr-2017 18:39:18 UTC] PHP Parse error:  syntax error, unexpected '$followid' (T_VARIABLE), expecting ',' or ';' in /home/projbsn/public_html/follow.php on line 58
+[09-Apr-2017 18:39:39 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/follow.php on line 41
+[09-Apr-2017 18:39:41 UTC] PHP Notice:  Undefined index: Logout in /home/projbsn/public_html/follow.php on line 31
+[09-Apr-2017 18:40:22 UTC] PHP Parse error:  syntax error, unexpected '$followid' (T_VARIABLE), expecting ',' or ';' in /home/projbsn/public_html/follow.php on line 56
+[09-Apr-2017 18:40:31 UTC] PHP Parse error:  syntax error, unexpected '$followid' (T_VARIABLE), expecting ',' or ';' in /home/projbsn/public_html/follow.php on line 56
+[09-Apr-2017 18:40:39 UTC] PHP Parse error:  syntax error, unexpected '$followid' (T_VARIABLE), expecting ',' or ';' in /home/projbsn/public_html/follow.php on line 56
+[09-Apr-2017 18:40:39 UTC] PHP Parse error:  syntax error, unexpected '$followid' (T_VARIABLE), expecting ',' or ';' in /home/projbsn/public_html/follow.php on line 56
+[09-Apr-2017 18:40:49 UTC] PHP Parse error:  syntax error, unexpected '$followid' (T_VARIABLE), expecting ',' or ';' in /home/projbsn/public_html/follow.php on line 56
+[09-Apr-2017 18:41:15 UTC] PHP Parse error:  syntax error, unexpected '$followid' (T_VARIABLE), expecting ',' or ';' in /home/projbsn/public_html/follow.php on line 56
+[09-Apr-2017 18:41:57 UTC] PHP Parse error:  syntax error, unexpected '$followid' (T_VARIABLE), expecting ',' or ';' in /home/projbsn/public_html/follow.php on line 56
+[09-Apr-2017 18:42:02 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[09-Apr-2017 18:42:03 UTC] PHP Parse error:  syntax error, unexpected '$followid' (T_VARIABLE), expecting ',' or ';' in /home/projbsn/public_html/follow.php on line 56
+[09-Apr-2017 18:43:27 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/follow.php on line 41
+[09-Apr-2017 18:43:27 UTC] PHP Notice:  Undefined index: followid in /home/projbsn/public_html/follow.php on line 50
+[09-Apr-2017 18:43:30 UTC] PHP Notice:  Undefined index: Logout in /home/projbsn/public_html/follow.php on line 31
+[09-Apr-2017 18:43:42 UTC] PHP Notice:  Undefined index: Logout in /home/projbsn/public_html/follow.php on line 31
+[09-Apr-2017 18:43:44 UTC] PHP Notice:  Undefined index: Logout in /home/projbsn/public_html/follow.php on line 31
+[09-Apr-2017 18:46:13 UTC] PHP Notice:  Trying to get property of non-object in /home/projbsn/public_html/searchreview.php on line 190
+[09-Apr-2017 18:46:39 UTC] PHP Notice:  Trying to get property of non-object in /home/projbsn/public_html/searchreview.php on line 190
+[09-Apr-2017 18:50:22 UTC] PHP Notice:  Undefined index: Logout in /home/projbsn/public_html/follow.php on line 31

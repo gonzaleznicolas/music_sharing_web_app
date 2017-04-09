@@ -36,7 +36,10 @@
         &nbsp&nbsp&nbsp&nbsp
         <a href="http://projbsn.cpsc.ucalgary.ca/searchsong.php">Search Song</a>
         &nbsp&nbsp&nbsp&nbsp
-        <a href="http://projbsn.cpsc.ucalgary.ca/searchalbum.php">Search Album</a><br>
+        <a href="http://projbsn.cpsc.ucalgary.ca/searchalbum.php">Search Album</a>
+        &nbsp&nbsp&nbsp&nbsp
+        <a href="http://projbsn.cpsc.ucalgary.ca/searchreview.php">Search Review</a>
+        <br>
         <br>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">  
             Search by artist stage name or by artist ID number? <br>

@@ -34,7 +34,7 @@
         <a href="http://projbsn.cpsc.ucalgary.ca/searchsong.php">Search Song</a><br>
         <a href="http://projbsn.cpsc.ucalgary.ca/searchalbum.php">Search Album</a><br>
         <a href="http://projbsn.cpsc.ucalgary.ca/searchartist.php">Search Artist</a><br>
-        <a href="http://projbsn.cpsc.ucalgary.ca/searchreview.php">searchreview</a><br>
+        <a href="http://projbsn.cpsc.ucalgary.ca/searchreview.php">Search Review</a><br>
         <br>        
         
         

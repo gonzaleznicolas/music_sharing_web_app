@@ -35,7 +35,10 @@
         &nbsp&nbsp&nbsp&nbsp
         <a href="http://projbsn.cpsc.ucalgary.ca/searchartist.php">Search Artist</a>
         &nbsp&nbsp&nbsp&nbsp
-        <a href="http://projbsn.cpsc.ucalgary.ca/searchalbum.php">Search Album</a><br>
+        <a href="http://projbsn.cpsc.ucalgary.ca/searchalbum.php">Search Album</a>
+        &nbsp&nbsp&nbsp&nbsp
+        <a href="http://projbsn.cpsc.ucalgary.ca/searchreview.php">Search Review</a>
+        <br>
         <br>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">  
             Song Name: <input type="text" name="sname"><br><br>

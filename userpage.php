@@ -16,7 +16,9 @@ if ($_SESSION["UserID"] == NULL) {
         <meta charset="UTF-8">
         <title>Music Sharing-User Page</title>
         <style>
-            table, th, td { border: 1px solid black; }
+            table, th, td { border: 1px solid black; 
+                            table-layout: fixed;
+                            width: 100px;}
         </style>
     </head>
     <body>
@@ -56,32 +58,34 @@ if ($_SESSION["UserID"] == NULL) {
         $result = $conn->query($sql); //pass the string into the connection via query, and get result
         if ($result->num_rows > 0) { //check if query results in more than 0 rows
             while ($row = $result->fetch_assoc()) { //loop until all rows in result are fetched
-                echo "UserID: " . $row["UserID"] . "$t Date of birth: " . $row["DOB"] . "$t Name: " . $row["Name"] . "<br><br><br>"; //print the values for that UserID relation
+                echo "UserID: " . $row["UserID"] . "$t Date of birth: " . $row["DOB"] . "$t Name: " . $row["Name"] . "<br>"; //print the values for that UserID relation
             }
         }
-        
-        //Display who this user is following
-        echo "<br><br>You are following these users:<br>";
-        $sql = "SELECT * FROM following WHERE FollowerID = '$userID'";
-        $result = $conn->query($sql);
-        if ($result->num_rows > 0) {
-            while ($row = $result->fetch_assoc()) {
-                echo "Following: " . $row["FolloweeID"] . "<br>";
-            }
-        }
-        
-        
-        
-        
-        
-        
         ?>
+        
+        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">  
+            <input type="submit" name="Logout" value="Logout" />
+        </form>
+        <br><br>
+        <table>
+            <tr>
+                <td><a href="http://projbsn.cpsc.ucalgary.ca/searchsong.php">Search Song</a></td>
+                <td><a href="http://projbsn.cpsc.ucalgary.ca/searchalbum.php">Search Album</a></td>
+                <td><a href="http://projbsn.cpsc.ucalgary.ca/searchartist.php">Search Artist</a></td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <td><a href="http://projbsn.cpsc.ucalgary.ca/review.php">Review</a></td>
+                <td><a href="http://projbsn.cpsc.ucalgary.ca/rate.php">Rate</a></td>
+                <td><a href="http://projbsn.cpsc.ucalgary.ca/follow.php">Follow</a></td>
+                <td><a href="http://projbsn.cpsc.ucalgary.ca/recommend.php">Recommend</a></td>
+            </tr>
+        </table>
+        <br><br>
+        
         TODO: <br>
-        Navigation panel<br>
-        display who user is following<br>
-        display warnings from a mod to this user, their strikes, and the related review?<br>
-        display recommended songid<br>
-        links to song search, album search, artist search<br>
         form 1: follow userid<br>
         form 2: rate songid<br>
         form 3: rate albumid<br>
@@ -91,13 +95,11 @@ if ($_SESSION["UserID"] == NULL) {
         form 7: review artistid<br>
         form 8: declare listens to songid<br>
         form 9: recommend songid to userid<br>
-        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">  
-            <input type="submit" name="Logout" value="Logout" />
-        </form>
         <br>
         <br>
         <br>
         <br>
+        
         <?php
         echo "test1";
         $conn->close(); //close the connection to database
