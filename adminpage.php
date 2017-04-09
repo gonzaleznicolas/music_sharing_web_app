@@ -44,15 +44,17 @@ if ($_SESSION["Mode"] != "Admin") {
         if ($artistName != NULL) {
             //add music
             //check if artist exists
+            $artistID = "";
             $checkArtist = mysqli_fetch_array($conn->query("SELECT ArtistID FROM artist WHERE StageName = '$artistName';"));
             //echo $checkArtist[0];
 
             if ($checkArtist[0] == NULL) {
                 //if the artist doesn't exist
                 $nextArtistID = mysqli_fetch_array($conn->query("SELECT COUNT(ArtistId) FROM artist;"));
-                $nextArtistID++;
-                $artistID = $nextArtistID;
-                $conn->query("INSERT INTO artist(ArtistID, AdminWhoAddedID, StageName, AddedDate) VALUES('$nextArtistID', '$userID', '$artistName', '$date');");
+                
+                $artistID = $nextArtistID[0];
+                $artistID++;
+                $conn->query("INSERT INTO artist(ArtistID, AdminWhoAddedID, StageName, AddedDate) VALUES('$artistID', '$userID', '$artistName', '$date');");
             } else {
                 //$artistID = mysqli_fetch_array($conn->query("SELECT ArtistId FROM artist WHERE StageName = '$name';"));
                 $artistID = $checkArtist[0];
@@ -60,25 +62,31 @@ if ($_SESSION["Mode"] != "Admin") {
             }
 
             //if album isnt null, check if it exists already
-            echo $albumName;
+            //echo $albumName;
+
             if ($albumName != NULL) {
                 //check if it exists
                 $checkAlbum = mysqli_fetch_array($conn->query("SELECT AlbumName FROM album WHERE AlbumName = '$albumName';"));
-                if ($checkAlbum == NULL) {
+                
+                //echo $checkAlbum;
+                if ($checkAlbum != NULL) {
                     //add
+                    //echo "$albumName";
+                    echo "$artistID";
+                    //echo "$userID";
+                    //echo "$date";
                     $conn->query("INSERT INTO album(AlbumName, ArtistID, AdminWhoAddedID, AddedDate) VALUES('$albumName', '$artistID', '$userID', '$date');");
                 }
-                
             }
-            
-            echo $song;
-            if ($song != NULL){
+
+            //echo $song;
+            if ($song != NULL) {
                 $checkSong = mysqli_fetch_array($conn->query("SELECT SongName, ArtistID FROM song WHERE SongName = '$song' AND ArtistID = '$artistID';"));
-                if(count($checkSong)==0){
+                if (count($checkSong) == 0) {
                     //add song
+                    //echo "within adding song";
                     $conn->query("INSERT INTO song(SongName, ArtistID, AlbumName, AdminWhoAddedID, AddedDate) VALUES('$song', '$artistID', '$albumName', '$userID', '$date');");
                 }
-                
             }
         }
 
@@ -118,8 +126,8 @@ if ($_SESSION["Mode"] != "Admin") {
         </form>
         logout button^<br>
 
-<?php
-$conn->close();            //close the connection to database
-?>
+        <?php
+        $conn->close();            //close the connection to database
+        ?>
     </body>
 </html>

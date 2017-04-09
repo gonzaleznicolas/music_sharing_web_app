@@ -32,7 +32,11 @@
 
         <h3>Search Artist</h3>
         
-        <a href="http://projbsn.cpsc.ucalgary.ca/index.php">Home Page</a><br>
+        <a href="http://projbsn.cpsc.ucalgary.ca/index.php">Home Page</a>
+        &nbsp&nbsp&nbsp&nbsp
+        <a href="http://projbsn.cpsc.ucalgary.ca/searchsong.php">Search Song</a>
+        &nbsp&nbsp&nbsp&nbsp
+        <a href="http://projbsn.cpsc.ucalgary.ca/searchalbum.php">Search Album</a><br>
         <br>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">  
             Search by artist stage name or by artist ID number? <br>
@@ -156,7 +160,63 @@
                             }
                             echo "<br>";
                         }
-                    }                }
+                    }
+                }
+            }
+            else if ($searchString == NULL)
+            {
+
+
+                $result = $conn->query("SELECT ArtistID, StageName, RealName, AddedDate FROM artist;");
+
+                if($result->num_rows >0){           //check if query results in more than 0 rows
+                    $count = 0;
+                    while($row = $result->fetch_assoc()){   //loop until all rows in result are fetched
+                        $count = $count + 1;
+                        $avgrating = "";
+                        $aID = $row["ArtistID"];
+                        $rating = $conn->query("SELECT AVG(Rating) FROM artist_rating WHERE ArtistID='$aID';");
+                        if ($ratingRow = $rating->fetch_assoc())
+                        {
+                            $avgrating = $ratingRow["AVG(Rating)"];
+                        }
+                        if ($avgrating=="")
+                        {
+                            $avgrating = "Not Rated Yet";
+                        }
+
+
+                        echo "<br><br>";
+                        echo "Artist ID: ".$row["ArtistID"]."<br>";
+                        echo "Stage Name: ".$row["StageName"]."<br>";
+                        echo "Real Name: ".$row["RealName"]."<br>";
+                        echo "Date Added: ".$row["AddedDate"]."<br>";
+                        echo "Average Rating: ".$avgrating."<br>";
+
+
+                        echo "<i><strong>Albums by this artist:</strong></i><br>";
+
+                        $albums = $conn->query("SELECT AlbumName FROM album WHERE ArtistID='$aID';");
+                        if($albums->num_rows >0){           //check if query results in more than 0 rows
+                            while($row3 = $albums->fetch_assoc()){   //loop until all rows in result are fetched
+                                echo $row3["AlbumName"]."<br>";
+
+                            }
+                        }
+
+                        echo "<i><strong>Songs by this artist:</strong></i><br>";
+
+                        $songs = $conn->query("SELECT SongName FROM song WHERE ArtistID='$aID';");
+                        if($songs->num_rows >0){           //check if query results in more than 0 rows
+                            while($row1 = $songs->fetch_assoc()){   //loop until all rows in result are fetched
+                                echo $row1["SongName"]."<br>";
+
+                            }
+                        }
+                        echo "<br>";
+                    }
+                }
+
             }
 
 

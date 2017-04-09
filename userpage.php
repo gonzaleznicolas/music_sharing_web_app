@@ -14,7 +14,7 @@ if ($_SESSION["UserID"] == NULL) {
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Music Sharing-Admin Page</title>
+        <title>Music Sharing-User Page</title>
         <style>
             table, th, td { border: 1px solid black; }
         </style>
@@ -48,15 +48,36 @@ if ($_SESSION["UserID"] == NULL) {
         ?>
 
         <h3>User Page</h3>
-        <br>
-        <br>
-        <table>
-            <tr>
-                <td><a href="http://projbsn.cpsc.ucalgary.ca/adminpage.php">Admin Page</a></td>
-            </tr>
-        </table>
+        <?php 
+        //Write this user's info
+        echo "<br><br>Welcome, you are logged in as:<br>";
+        $t = "&nbsp;&nbsp;&nbsp;&nbsp;"; //tab character
+        $sql = "SELECT * FROM user WHERE UserID = '$userID'"; //write the query string
+        $result = $conn->query($sql); //pass the string into the connection via query, and get result
+        if ($result->num_rows > 0) { //check if query results in more than 0 rows
+            while ($row = $result->fetch_assoc()) { //loop until all rows in result are fetched
+                echo "UserID: " . $row["UserID"] . "$t Date of birth: " . $row["DOB"] . "$t Name: " . $row["Name"] . "<br><br><br>"; //print the values for that UserID relation
+            }
+        }
+        
+        //Display who this user is following
+        echo "<br><br>You are following these users:<br>";
+        $sql = "SELECT * FROM following WHERE FollowerID = '$userID'";
+        $result = $conn->query($sql);
+        if ($result->num_rows > 0) {
+            while ($row = $result->fetch_assoc()) {
+                echo "Following: " . $row["FolloweeID"] . "<br>";
+            }
+        }
+        
+        
+        
+        
+        
+        
+        ?>
         TODO: <br>
-        ID: <?php echo $userID ?><br>
+        Navigation panel<br>
         display who user is following<br>
         display warnings from a mod to this user, their strikes, and the related review?<br>
         display recommended songid<br>
@@ -72,35 +93,30 @@ if ($_SESSION["UserID"] == NULL) {
         form 9: recommend songid to userid<br>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">  
             <input type="submit" name="Logout" value="Logout" />
-
         </form>
         <br>
         <br>
         <br>
-        Code WIP:<br>
-        UserID submitted: <?php echo $userID ?><br>
-        Password submitted: <?php echo "why would this be displayed?"; ?><br>
         <br>
-<?php
-//get the information submitted by HTTP
-$userid = $_POST["userid"];
-$password = $_POST["password"];
-
-//sql get query
-$sql = "SELECT UserID FROM user WHERE (UserID = '$userid' AND Password = '$password')"; //write the query string
-echo "<br><br>Printing the information for the logged in user:<br>";
-$result = $conn->query($sql); //pass the string into the connection via query
-// `Name` =  'foo', `Password` =  'bar' WHERE  `user`.`UserID` =4;
-$t = "&nbsp;&nbsp;&nbsp;&nbsp;"; //tab character
-
-if ($result->num_rows > 0) { //check if query results in more than 0 rows
-    while ($row = $result->fetch_assoc()) { //loop until all rows in result are fetched
-        echo "UserID: " . $row["UserID"] . "$t Password: " . $row["Password"] . "<br>"; //print the value from the UserID attribute
-    }
-}
-echo "test1";
-
-$conn->close(); //close the connection to database
-?>
+        <?php
+        echo "test1";
+        $conn->close(); //close the connection to database
+        ?>
     </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
