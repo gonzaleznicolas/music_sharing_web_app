@@ -6,7 +6,7 @@
     <head>
         <link rel="stylesheet" href="styles/searchsong.css">
         <meta charset="UTF-8">
-        <title>Music Sharing-Admin Page</title>
+        <title>Music Sharing-Song Search</title>
         <style>
         table, th, td { border: 1px solid black; }
         </style>
@@ -29,7 +29,7 @@
         }
         ?>
 
-        <h3>Search Song</h3>
+        <h3>Search Song By Song Name</h3>
         
         <a href="http://projbsn.cpsc.ucalgary.ca/index.php">Home Page</a><br>
         <br>
@@ -46,7 +46,6 @@
                 Print "<i>$songName</i>";
                 echo ":<br><br>";
 
-                Print "<strong>SongName&emsp;&emsp;&emsp;&emsp;ArtistID&emsp;&emsp;&emsp;&emsp;Album&emsp;&emsp;&emsp;&emsp;Genre&emsp;&emsp;&emsp;&emsp;Length(s)&emsp;&emsp;&emsp;&emsp;DateAdded&emsp;&emsp;&emsp;&emsp;AverageRating</strong><br>";
                 echo "<hr>";
 
 
@@ -55,21 +54,40 @@
 
 
                 if($result->num_rows >0){           //check if query results in more than 0 rows
+                    $count = 0;
                     while($row = $result->fetch_assoc()){   //loop until all rows in result are fetched
-
-                        $avgrating = "not rated yet";
+                        $count = $count + 1;
+                        $avgrating = "";
                         $sn = $row["SongName"];
                         $aID = $row["ArtistID"];
                         $rating = $conn->query("SELECT AVG(Rating) FROM song_rating WHERE SongName='$sn' AND ArtistID='$aID';");
                         if ($ratingRow = $rating->fetch_assoc())
                         {
-                            echo "<br>";
                             $avgrating = $ratingRow["AVG(Rating)"];
-                            echo "<br>";
+                        }
+                        if ($avgrating=="")
+                        {
+                            $avgrating = "Not Rated Yet";
                         }
 
+                        $artistName = $conn->query("SELECT StageName FROM artist WHERE ArtistID='$aID';");
+                        if($artistName->num_rows >0){           //check if query results in more than 0 rows
+                            while($row2 = $artistName->fetch_assoc()){   //loop until all rows in result are fetched
+                                $artist_name = $row2["StageName"];
 
-                        echo $row["SongName"]."&emsp;&emsp;&emsp;&emsp;".$row["ArtistID"]."&emsp;&emsp;&emsp;&emsp;".$row["AlbumName"]."&emsp;&emsp;&emsp;&emsp;".$row["Genre"]."&emsp;&emsp;&emsp;&emsp;".$row["Length"]."&emsp;&emsp;&emsp;&emsp;".$row["AddedDate"]."&emsp;&emsp;&emsp;&emsp;".$avgrating."<br>"; //here we are looking at one row, and printing the values in that row
+                            }
+                        }
+
+                        echo "<br>"."<strong>Result # </strong>".$count."<br>";
+                        echo "Song Name: ".$row["SongName"]."<br>";
+                        echo "Artist ID: ".$row["ArtistID"]."<br>";
+                        echo "Artist Stage Name: ".$artist_name."<br>";
+                        echo "Album Name: ".$row["AlbumName"]."<br>";
+                        echo "Genre: ".$row["Genre"]."<br>";
+                        echo "Length(s): ".$row["Length"]."<br>";
+                        echo "Date Added: ".$row["AddedDate"]."<br>";
+                        echo "Average Rating: ".$avgrating."<br><br>";
+
                     }
                 }
                 
@@ -81,5 +99,6 @@
 
             $conn-> close();            //close the connection to database
         ?>
+
     </body>
 </html>

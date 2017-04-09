@@ -49,6 +49,12 @@ if ($_SESSION["UserID"] == NULL) {
 
         <h3>User Page</h3>
         <br>
+        <br>
+        <table>
+            <tr>
+                <td><a href="http://projbsn.cpsc.ucalgary.ca/adminpage.php">Admin Page</a></td>
+            </tr>
+        </table>
         TODO: <br>
         ID: <?php echo $userID ?><br>
         display who user is following<br>
