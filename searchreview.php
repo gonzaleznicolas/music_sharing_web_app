@@ -35,6 +35,8 @@
         
         <a href="http://projbsn.cpsc.ucalgary.ca/index.php">Home Page</a>
         &nbsp&nbsp&nbsp&nbsp
+        <a href="http://projbsn.cpsc.ucalgary.ca/userpage.php">User Page</a>
+        &nbsp&nbsp&nbsp&nbsp
         <a href="http://projbsn.cpsc.ucalgary.ca/searchsong.php">Search Song</a>
         &nbsp&nbsp&nbsp&nbsp
         <a href="http://projbsn.cpsc.ucalgary.ca/searchalbum.php">Search Album</a>
@@ -120,8 +122,9 @@
                             if($reviews->num_rows >0){
                                 while($row4 = $reviews->fetch_assoc())
                                 {
-                                    echo "<br>User # ".$row4["UserWhoWrote"]." wrote:<br>";
+                                    echo "<br><strong>User # </strong>".$row4["UserWhoWrote"]."<strong> wrote:</strong><br>";
                                     echo $row4["Content"];
+                                    echo "<br>";
                                 }
                             }
 
@@ -171,8 +174,9 @@
                             if($reviews->num_rows >0){
                                 while($row4 = $reviews->fetch_assoc())
                                 {
-                                    echo "<br>User # ".$row4["UserWhoWrote"]." wrote:<br>";
+                                    echo "<br><strong>User # </strong>".$row4["UserWhoWrote"]."<strong> wrote:</strong><br>";
                                     echo $row4["Content"];
+                                    echo "<br>";
                                 }
                             }
 
@@ -222,8 +226,9 @@
                             if($reviews->num_rows >0){
                                 while($row4 = $reviews->fetch_assoc())
                                 {
-                                    echo "<br>User # ".$row4["UserWhoWrote"]." wrote:<br>";
+                                    echo "<br><strong>User # </strong>".$row4["UserWhoWrote"]."<strong> wrote:</strong><br>";
                                     echo $row4["Content"];
+                                    echo "<br>";
                                 }
                             }
 

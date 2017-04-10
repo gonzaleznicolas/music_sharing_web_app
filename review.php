@@ -14,15 +14,14 @@ if ($_SESSION["UserID"] == NULL) {
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles/style.css">
         <title>Music Sharing-Review</title>
-        <style>
-            table, th, td { border: 1px solid black; }
-        </style>
     </head>
     <body>
         <?php
         //connect to database
         include('config.php');
+        $t = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"; //tab character
         //echo $_SESSION["Mode"];
         $userID = $_SESSION["UserID"];  //userID
 
@@ -45,6 +44,35 @@ if ($_SESSION["UserID"] == NULL) {
             header("Location: http://projbsn.cpsc.ucalgary.ca/loginform.php");
             exit();
         }
+        
+        $type = $_POST['type']; //Get the submitted data
+        $artistID = $_POST['artistID'];
+        $review = $_POST['review'];
+        $otherID = $_POST['otherID'];
+        $date = date('Y/m/d');
+        $time = date('h:i:s', time());
+        
+        if ($otherID == "") { //If otherID was not filled, set to NULL
+            $otherID = NULL;
+        }
+        
+        if ($artistID != "" || $rating != "") { //Do a query if at least these two have values
+            if ($type == "album" && $otherID != NULL) { //Album and id filled out
+                $sql = "INSERT INTO review (DatePosted, TimePosted, Content, ArtistID, AlbumName, UserWhoWrote) 
+                        VALUES ('$date', '$time', '$review', '$artistID', '$otherID', '$userID')";
+                mysqli_query($conn,$sql);
+            }
+            else if ($type == "song" && $otherID != NULL) { //Song and id filled out
+                $sql = "INSERT INTO review (DatePosted, TimePosted, Content, SongName, ArtistID, UserWhoWrote) 
+                        VALUES ('$date', '$time', '$review', '$otherID', '$artistID', '$userID')";
+                mysqli_query($conn,$sql);
+            }
+            else { //Otherwise, can only do artist with info given
+                $sql = "INSERT INTO review (DatePosted, TimePosted, Content, ArtistID, UserWhoWrote) 
+                        VALUES ('$date', '$time', '$review', '$artistID', '$userID')";
+                mysqli_query($conn,$sql);
+            }
+        }
         ?>
         
         <h3>Reviews</h3>
@@ -53,11 +81,35 @@ if ($_SESSION["UserID"] == NULL) {
             <input type="submit" name="Logout" value="Logout" />
         </form>
         <br><br>
-        <table>
+        <table class="center">
             <tr>
                 <td><a href="http://projbsn.cpsc.ucalgary.ca/userpage.php">User Page</a></td>
             </tr>
         </table>
+        <br>
+        <table class="center">
+            <tr>
+                <td><a href="http://projbsn.cpsc.ucalgary.ca/review.php">Review</a></td>
+                <td><a href="http://projbsn.cpsc.ucalgary.ca/rate.php">Rate</a></td>
+                <td><a href="http://projbsn.cpsc.ucalgary.ca/follow.php">Follow</a></td>
+                <td><a href="http://projbsn.cpsc.ucalgary.ca/recommend.php">Recommend</a></td>
+            </tr>
+        </table>
+        <br><br>
+        Review by filling out Artist ID and Review message.<br>
+        You may optionally review an Album or a Song (Still specify the artist!).<br>
+        <form action="review.php" method="post">
+            *Artist ID: <input type="text" name="artistID">&nbsp;&nbsp;&nbsp;&nbsp; 
+            *Review message: <input type="text" name="review"><br>
+            If not reviewing artist: 
+                <select name="type">
+                    <option value="null"> </option>
+                    <option value="album">Album</option>
+                    <option value="song">Song</option>
+                </select> &nbsp;&nbsp;&nbsp;&nbsp;
+            Album or Song name: <input type="text" name="otherID"><br>
+            <input type="submit" value="Submit">
+        </form>
         <br><br>
         
         <?php
@@ -86,9 +138,7 @@ if ($_SESSION["UserID"] == NULL) {
         }
         ?>
         
-        
         <?php
-        echo "<br><br>test1";
         $conn->close(); //close the connection to database
         ?>
     </body>

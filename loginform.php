@@ -10,6 +10,7 @@ session_start();
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles/style.css">
         <title>Music Sharing-Login Form</title>
         <style>
             table, th, td { border: 1px solid black; }
@@ -36,11 +37,9 @@ session_start();
         }
         ?>
         <h3>Login Form</h3>
-        <table>
+        <table class="center">
             <tr>
                 <td><a href="http://projbsn.cpsc.ucalgary.ca/index.php">Home Page</a></td>
-            </tr>
-            <tr>
                 <td><a href="http://projbsn.cpsc.ucalgary.ca/newuserform.php">New User Form</a></td>
             </tr>
         </table>

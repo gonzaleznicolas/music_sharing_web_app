@@ -14,10 +14,8 @@ if ($_SESSION["UserID"] == NULL) {
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles/style.css">
         <title>Music Sharing-Follow</title>
-        <style>
-            table, th, td { border: 1px solid black; }
-        </style>
     </head>
     <body>
         <?php
@@ -45,36 +43,51 @@ if ($_SESSION["UserID"] == NULL) {
             header("Location: http://projbsn.cpsc.ucalgary.ca/loginform.php");
             exit();
         }
-        ?>
-        <?php
-        $followid = $_POST['followid'];
-        
-        if ($followid != NULL) {
-            echo $followid;
-        }
-        
+        //Execute follow
+        $followid = $_POST['followid']; //Get the submitted data
         $sql = "INSERT INTO following (FollowerID, FolloweeID) VALUES ('$userID', '$followid')";
-        if(!mysqli_query($conn,$sql)){
-            echo "Not successful";
-        }
-        else {
-            echo "successful";
-        }
-        
+        //Try inserting row
+        mysqli_query($conn,$sql);
+        //Execute unfollow
+        $unfollowid = $_POST['unfollowid'];
+        $sql = "DELETE FROM following
+                WHERE FollowerID = '$userID' 
+                    AND FolloweeID = '$unfollowid'";
+        //Try deleting row
+        mysqli_query($conn,$sql);
         ?>
-        
         <h3>Follow</h3>
         
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">  
             <input type="submit" name="Logout" value="Logout" />
         </form>
         <br><br>
-        <table>
+        <table class="center">
             <tr>
                 <td><a href="http://projbsn.cpsc.ucalgary.ca/userpage.php">User Page</a></td>
             </tr>
         </table>
+        <br>
+        <table class="center">
+            <tr>
+                <td><a href="http://projbsn.cpsc.ucalgary.ca/review.php">Review</a></td>
+                <td><a href="http://projbsn.cpsc.ucalgary.ca/rate.php">Rate</a></td>
+                <td><a href="http://projbsn.cpsc.ucalgary.ca/follow.php">Follow</a></td>
+                <td><a href="http://projbsn.cpsc.ucalgary.ca/recommend.php">Recommend</a></td>
+            </tr>
+        </table>
         <br><br>
+        <form action="follow.php" method="post">
+            Follow this ID: <input type="text" name="followid"> &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="submit" value="Submit">
+        </form>
+        <br><br>
+        <form action="follow.php" method="post">
+            Unfollow this ID: <input type="text" name="unfollowid"> &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="submit" value="Submit">
+        </form>
+        <br><br>
+        
         <?php
         //Display who this user is following
         echo "You are following these users:<br>";
@@ -85,7 +98,6 @@ if ($_SESSION["UserID"] == NULL) {
                 echo "Followee: " . $row["FolloweeID"] . "<br>";
             }
         }
-        
         //Display who is following this user
         echo "<br>These users follow you:<br>";
         $sql = "SELECT * FROM following WHERE FolloweeID = '$userID'";
@@ -96,14 +108,8 @@ if ($_SESSION["UserID"] == NULL) {
             }
         }
         ?>
-        <br><br><br>
-        <form action="follow.php" method="post">
-            Follow this ID: <input type="text" name="followid"> &nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="submit" value="Submit">
-        </form>
         
         <?php
-        echo "<br><br>test1";
         $conn->close(); //close the connection to database
         ?>
     </body>

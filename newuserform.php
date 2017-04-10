@@ -10,6 +10,7 @@ session_start();
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles/style.css">
         <title>Music Sharing-New User Form</title>
         <style>
             table, th, td { border: 1px solid black; }
@@ -61,14 +62,13 @@ session_start();
         ?>
 
         <h3>New User Form</h3>
-        <table>
+        <table class="center">
             <tr>
                 <td><a href="http://projbsn.cpsc.ucalgary.ca/index.php">Home Page</a></td>
-            </tr>
-            <tr>
                 <td><a href="http://projbsn.cpsc.ucalgary.ca/loginform.php">Login Form</a></td>
             </tr>
         </table>
+        <br><br>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">  
             UserID: <?php echo $newID ?> <br><br>
             Password: <input type="text" name="passw" value="" maxlength="100" /> <br><br>

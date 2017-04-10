@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(9, 19, 10, 0.48);
+    text-align: center;
+    color:rgb(56,244,132);
+    font-family: Century Gothic, sans-serif;
+    margin: auto;
+
+}
+
+h3{
+    font-size: 70px;
+    font-weight: 100;
+}
+
+h4{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+tr{
+    text-align: center;   
+}
+
+.one{
+    display:flex;
+}
+
+div{
+    margin: auto;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+table, th, td {
+    border: 2px solid black;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}

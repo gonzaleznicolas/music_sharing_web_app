@@ -33,6 +33,8 @@
         
         <a href="http://projbsn.cpsc.ucalgary.ca/index.php">Home Page</a>
         &nbsp&nbsp&nbsp&nbsp
+        <a href="http://projbsn.cpsc.ucalgary.ca/userpage.php">User Page</a>
+        &nbsp&nbsp&nbsp&nbsp
         <a href="http://projbsn.cpsc.ucalgary.ca/searchsong.php">Search Song</a>
         &nbsp&nbsp&nbsp&nbsp
         <a href="http://projbsn.cpsc.ucalgary.ca/searchartist.php">Search Artist</a>
