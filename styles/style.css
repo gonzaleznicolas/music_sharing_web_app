@@ -44,4 +44,6 @@ table, th, td {
     text-align: left;
     background-color: #4CAF50;
     color: white;
+    table-layout: fixed;
+    width: 100px;
 }

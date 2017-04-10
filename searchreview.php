@@ -1,3 +1,8 @@
+<?php
+// Start the session
+session_start();
+
+?>
 <!DOCTYPE html>
 <!--
 471 Group
@@ -16,6 +21,8 @@
         //Start the database connection
         include('config.php');
 
+        $userID = $_SESSION["UserID"];  //userID
+        
         $type=$artistid=$option="";
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $type = test_input($_POST["type"]);
@@ -32,6 +39,17 @@
         ?>
 
         <h3>Search Review</h3>
+        <?php
+        if (userID != "" && userID != NULL) {
+            $sql = "SELECT * FROM user WHERE UserID = '$userID'";
+            $result = $conn->query($sql);
+            if ($result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                    echo "User: " . $row["UserID"] . " - " . $row["Name"] . "<br><br>"; 
+                }
+            }
+        }
+        ?>
         
         <a href="http://projbsn.cpsc.ucalgary.ca/index.php">Home Page</a>
         &nbsp&nbsp&nbsp&nbsp

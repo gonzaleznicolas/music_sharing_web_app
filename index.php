@@ -16,13 +16,11 @@
         <h4>Rate - Review - Recommend</h4>
         By: Brenton Kruger, Sean Hoey, Nicolas Gonzalez
         <br><br>
-        <div class="image"><img src="images/play.png" alt="logo" width="300" height="300"></div>
+        <div class="image"><img src="images/play.png" alt="logo" width="200" height="200"></div>
         <br>
         <a href="http://projbsn.cpsc.ucalgary.ca/newuserform.php">New User</a>
         &nbsp&nbsp&nbsp&nbsp
         <a href="http://projbsn.cpsc.ucalgary.ca/loginform.php">Login</a>
-        &nbsp&nbsp&nbsp&nbsp
-        <a href="http://projbsn.cpsc.ucalgary.ca/userpage.php">User Page</a>
         <br><br>
 
         Browse content in guest mode:<br><br>
@@ -32,6 +30,7 @@
         <a href="http://projbsn.cpsc.ucalgary.ca/searchreview.php">Search Review</a><br><br>
 
         delete all of these later: <br>
+        <a href="http://projbsn.cpsc.ucalgary.ca/userpage.php">User Page</a><br>
         <a href="http://projbsn.cpsc.ucalgary.ca/index.php">Home Page</a><br>
         <a href="http://projbsn.cpsc.ucalgary.ca/loginform.php">Login Form</a><br>
         <a href="http://projbsn.cpsc.ucalgary.ca/newuserform.php">New User Form</a><br>
@@ -41,6 +40,7 @@
         
         
         <?php
+            //Delete later
             $servername = "localhost";
             $username = "projbsn_root";
             $password = "brentseannick471";

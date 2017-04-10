@@ -16,6 +16,10 @@ if ($_SESSION["UserID"] == NULL) {
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles/style.css">
         <title>Music Sharing-User Page</title>
+        <style type="text/css">
+            td { width: 100px;}
+            table { table-layout: fixed; }
+        </style>
     </head>
     <body>
         <?php
@@ -46,6 +50,17 @@ if ($_SESSION["UserID"] == NULL) {
         ?>
 
         <h3>User Page</h3>
+        <?php
+        if (userID != "" && userID != NULL) {
+            $sql = "SELECT * FROM user WHERE UserID = '$userID'";
+            $result = $conn->query($sql);
+            if ($result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                    echo "User: " . $row["UserID"] . " - " . $row["Name"] . "<br>"; 
+                }
+            }
+        }
+        ?>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">  
             <input type="submit" name="Logout" value="Logout" />
         </form>

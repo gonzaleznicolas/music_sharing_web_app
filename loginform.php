@@ -10,10 +10,11 @@ session_start();
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="styles/style.css">
         <title>Music Sharing-Login Form</title>
-        <style>
-            table, th, td { border: 1px solid black; }
+        <link rel="stylesheet" href="styles/style.css">
+        <style type="text/css">
+            td { width: 130px;}
+            table { table-layout: fixed; }
         </style>
     </head>
     <body>
@@ -48,9 +49,9 @@ session_start();
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">  
             Type:
             <select name="type">
+                <option value="user">User</option>
                 <option value="admin">Administrator</option>
                 <option value="mod">Moderator</option>
-                <option value="user">User</option>
             </select> <br><br>
 
             UserID: <input type="text" name="userid"><br><br>
@@ -58,7 +59,7 @@ session_start();
             <input type="submit" name="submit" value="Login"/> <br><br>
         </form>
         <br>
-      
+
         <?php
         //logic for admittance
         if ($pass != NULL) {
@@ -71,7 +72,7 @@ session_start();
                     //edit the session values
                     $_SESSION["Mode"] = "Admin";
                     $_SESSION["UserID"] = $user;
-                    header("Location: http://projbsn.cpsc.ucalgary.ca/userpage.php");
+                    header("Location: http://projbsn.cpsc.ucalgary.ca/adminpage.php");
                     exit();
                 } else {
                     echo "Access Denied. Wrong Password.";
@@ -85,7 +86,7 @@ session_start();
                     //edit the session values
                     $_SESSION["Mode"] = "Mod";
                     $_SESSION["UserID"] = $user;
-                    header("Location: http://projbsn.cpsc.ucalgary.ca/userpage.php");
+                    header("Location: http://projbsn.cpsc.ucalgary.ca/moderatorpage.php");
                     exit();
                 } else {
                     echo "Access Denied. Wrong Password.";

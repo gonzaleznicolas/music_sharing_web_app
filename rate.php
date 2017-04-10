@@ -16,6 +16,10 @@ if ($_SESSION["UserID"] == NULL) {
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles/style.css">
         <title>Music Sharing-Rate</title>
+        <style type="text/css">
+            td { width: 100px;}
+            table { table-layout: fixed; }
+        </style>
     </head>
     <body>
         <?php
@@ -70,7 +74,17 @@ if ($_SESSION["UserID"] == NULL) {
         ?>
         
         <h3>Rate</h3>
-        
+        <?php
+        if (userID != "" && userID != NULL) {
+            $sql = "SELECT * FROM user WHERE UserID = '$userID'";
+            $result = $conn->query($sql);
+            if ($result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                    echo "User: " . $row["UserID"] . " - " . $row["Name"] . "<br>"; 
+                }
+            }
+        }
+        ?>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">  
             <input type="submit" name="Logout" value="Logout" />
         </form>
@@ -91,8 +105,8 @@ if ($_SESSION["UserID"] == NULL) {
         </table>
         <br><br>
         
-        Rate by filling out Artist ID and Rating.<br>
-        You may optionally rate an Album or a Song (Still specify the artist!).<br>
+        <i><b>Rate by filling out Artist ID and Rating.</i></b><br>
+        <i><b>You may optionally rate an Album or a Song (Still specify the artist!).</i></b><br>
         <form action="rate.php" method="post">
             *Artist ID: <input type="text" name="artistID">&nbsp;&nbsp;&nbsp;&nbsp; 
             *Rating: <input type="text" name="rating"><br>
@@ -109,7 +123,7 @@ if ($_SESSION["UserID"] == NULL) {
         
         <?php
         //Display songs rated
-        echo "You have rated these songs:<br>";
+        echo "<i><b>You have rated these songs:</i></b><br><br>";
         $sql = "SELECT *, StageName FROM song_rating AS a, artist AS b 
                 WHERE ByUserID = '$userID'
                     AND a.ArtistID = b.ArtistID";
@@ -121,7 +135,7 @@ if ($_SESSION["UserID"] == NULL) {
         }
         
         //Display albums rated
-        echo "<br><br>You have rated these albums:<br>";
+        echo "<br><br><i><b>You have rated these albums:</i></b><br><br>";
         $sql = "SELECT *, StageName FROM album_rating AS a, artist AS b 
                 WHERE ByUserID = '$userID'
                     AND a.ArtistID = b.ArtistID";
@@ -133,7 +147,7 @@ if ($_SESSION["UserID"] == NULL) {
         }
         
         //Display artists rated
-        echo "<br><br>You have rated these artists:<br>";
+        echo "<br><br><i><b>You have rated these artists:</i></b><br><br>";
         $sql = "SELECT *, StageName FROM artist_rating AS a, artist AS b
                 WHERE ByUserID = '$userID' 
                     AND a.ArtistID = b.ArtistID";

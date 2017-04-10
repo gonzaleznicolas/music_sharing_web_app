@@ -12,8 +12,9 @@ session_start();
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles/style.css">
         <title>Music Sharing-New User Form</title>
-        <style>
-            table, th, td { border: 1px solid black; }
+        <style type="text/css">
+            td { width: 130px;}
+            table { table-layout: fixed; }
         </style>
     </head>
     <body>
@@ -23,7 +24,7 @@ session_start();
         
         //find next id available. It will be automatically assigned.
         //get count of users.
-        $count = mysqli_fetch_array($conn->query("SELECT COUNT(UserId) FROM user;"));
+        $count = mysqli_fetch_array($conn->query("SELECT MAX(UserId) FROM user;"));
         //echo $count[0];
         $newID = $count[0] + 1;
                 
@@ -65,12 +66,13 @@ session_start();
         <table class="center">
             <tr>
                 <td><a href="http://projbsn.cpsc.ucalgary.ca/index.php">Home Page</a></td>
+
                 <td><a href="http://projbsn.cpsc.ucalgary.ca/loginform.php">Login Form</a></td>
             </tr>
         </table>
         <br><br>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">  
-            UserID: <?php echo $newID ?> <br><br>
+            Your user ID: <?php echo $newID ?> <br><br>
             Password: <input type="text" name="passw" value="" maxlength="100" /> <br><br>
             Name: <input type="text" name="name" value="" maxlength="100" /> <br><br>
             DOB (yyyy/mm/dd): <input type="text" name="dob" value="" maxlength="100" /> <br><br>

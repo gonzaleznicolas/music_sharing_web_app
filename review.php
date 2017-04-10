@@ -16,6 +16,10 @@ if ($_SESSION["UserID"] == NULL) {
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles/style.css">
         <title>Music Sharing-Review</title>
+        <style type="text/css">
+            td { width: 100px;}
+            table { table-layout: fixed; }
+        </style>
     </head>
     <body>
         <?php
@@ -76,7 +80,17 @@ if ($_SESSION["UserID"] == NULL) {
         ?>
         
         <h3>Reviews</h3>
-        
+        <?php
+        if (userID != "" && userID != NULL) {
+            $sql = "SELECT * FROM user WHERE UserID = '$userID'";
+            $result = $conn->query($sql);
+            if ($result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                    echo "User: " . $row["UserID"] . " - " . $row["Name"] . "<br>"; 
+                }
+            }
+        }
+        ?>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">  
             <input type="submit" name="Logout" value="Logout" />
         </form>
@@ -96,8 +110,8 @@ if ($_SESSION["UserID"] == NULL) {
             </tr>
         </table>
         <br><br>
-        Review by filling out Artist ID and Review message.<br>
-        You may optionally review an Album or a Song (Still specify the artist!).<br>
+        <i><b>Review by filling out Artist ID and Review message.</i></b><br>
+        <i><b>You may optionally review an Album or a Song (Still specify the artist!).</i></b><br>
         <form action="review.php" method="post">
             *Artist ID: <input type="text" name="artistID">&nbsp;&nbsp;&nbsp;&nbsp; 
             *Review message: <input type="text" name="review"><br>
@@ -118,12 +132,12 @@ if ($_SESSION["UserID"] == NULL) {
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
             while ($row = $result->fetch_assoc()) {
-                echo "Total number of strikes against you: " . $row["NumStrikes"];
+                echo "<i><b>Total number of strikes against you:</i></b> " . $row["NumStrikes"];
             }
         }
         
         //Display review warnings for this user
-        echo "<br><br>You have the following reviews flagged currently:<br>";
+        echo "<br><br><i><b>You have the following reviews flagged:</i></b><br><br>";
         $sql = "SELECT R.*
                 FROM review AS R, flag AS F
                 WHERE R.UserWhoWrote = '$userID'
@@ -131,8 +145,15 @@ if ($_SESSION["UserID"] == NULL) {
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
             while ($row = $result->fetch_assoc()) {
-                echo "ReviewID: " . $row["ReviewID"] . "<br>";
-                echo "Song Name: " . $row["SongName"] . "<br>";
+                echo "Review ID: " . $row["ReviewID"] . "<br>";
+                echo "Date Posted: " . $row["DatePosted"] . "<br>";
+                echo "Artist ID: " .  $row["ArtistID"] . "<br>";
+                if ($row["SongName"] != NULL) {
+                    echo "Song Name: " . $row["SongName"] . "<br>";
+                }
+                if ($row["AlbumName"] != NULL) {
+                    echo "Album Name: " . $row["AlbumName"] . "<br>";
+                }
                 echo "Content: " . $row["Content"] . "<br><br>";
             }
         }

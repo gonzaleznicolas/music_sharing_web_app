@@ -7,7 +7,7 @@ if ($_SESSION["UserID"] == NULL) {
     exit();
 }
 if ($_SESSION["Mode"] != "Admin") {
-    header("Location: http://projbsn.cpsc.ucalgary.ca/userpage.php");
+    header("Location: http://projbsn.cpsc.ucalgary.ca/loginform.php");
     exit();
 }
 ?>
@@ -19,9 +19,11 @@ if ($_SESSION["Mode"] != "Admin") {
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles/style.css">
         <title>Music Sharing-Admin Page</title>
-        <style>
-            table, th, td { border: 1px solid black; }
+        <style type="text/css">
+            td { width: 100px;}
+            table { table-layout: fixed; }
         </style>
     </head>
     <body>
@@ -39,6 +41,36 @@ if ($_SESSION["Mode"] != "Admin") {
             $albumName = test_input($_POST["Album"]);
             $artistName = test_input($_POST["Artist"]);
             $song = test_input($_POST["Song"]);
+            $realName = test_input($_POST["RealName"]);
+            $length = test_input($_POST["Length"]);
+            $year = test_input($_POST["Year"]);
+            $genre = test_input($_POST["Genre"]);
+            $sales = test_input($_POST["Sales"]);
+        }
+        
+        if ($artistName == "Artist stage name") {
+            $artistName = NULL;
+        }
+        if ($realName == "Artist real name") {
+            $realName = NULL;
+        }
+        if ($albumName == "Album name") {
+            $albumName = NULL;
+        }
+        if ($song == "Song name") {
+            $song = NULL;
+        }
+        if ($year == "Album year") {
+            $year = NULL;
+        }
+        if ($sales == "Album sales") {
+            $sales = NULL;
+        }
+        if ($genre == "Song genre") {
+            $genre = NULL;
+        }
+        if ($length == "Song length") {
+            $length = NULL;
         }
 
         if ($artistName != NULL) {
@@ -46,19 +78,20 @@ if ($_SESSION["Mode"] != "Admin") {
             //check if artist exists
             $artistID = "";
             $checkArtist = mysqli_fetch_array($conn->query("SELECT ArtistID FROM artist WHERE StageName = '$artistName';"));
-            //echo $checkArtist[0];
 
             if ($checkArtist[0] == NULL) {
                 //if the artist doesn't exist
-                $nextArtistID = mysqli_fetch_array($conn->query("SELECT COUNT(ArtistId) FROM artist;"));
-                
+                $nextArtistID = mysqli_fetch_array($conn->query("SELECT MAX(ArtistId) FROM artist;"));
+
                 $artistID = $nextArtistID[0];
                 $artistID++;
-                $conn->query("INSERT INTO artist(ArtistID, AdminWhoAddedID, StageName, AddedDate) VALUES('$artistID', '$userID', '$artistName', '$date');");
+
+
+
+                $conn->query("INSERT INTO artist(ArtistID, AdminWhoAddedID, StageName, AddedDate, RealName) VALUES('$artistID', '$userID', '$artistName', '$date', '$realName');");
             } else {
-                //$artistID = mysqli_fetch_array($conn->query("SELECT ArtistId FROM artist WHERE StageName = '$name';"));
                 $artistID = $checkArtist[0];
-                //echo $artistID;
+                
             }
 
             //if album isnt null, check if it exists already
@@ -67,28 +100,28 @@ if ($_SESSION["Mode"] != "Admin") {
             if ($albumName != NULL) {
                 //check if it exists
                 $checkAlbum = mysqli_fetch_array($conn->query("SELECT AlbumName FROM album WHERE AlbumName = '$albumName';"));
-                
+
                 //echo $checkAlbum;
-                if ($checkAlbum != NULL) {
-                    //add
-                    //echo "$albumName";
-                    echo "$artistID";
-                    //echo "$userID";
-                    //echo "$date";
-                    $conn->query("INSERT INTO album(AlbumName, ArtistID, AdminWhoAddedID, AddedDate) VALUES('$albumName', '$artistID', '$userID', '$date');");
+                if ($checkAlbum == NULL) {
+                    //add               
+                $conn->query("INSERT INTO album(AlbumName, ArtistID, AdminWhoAddedID, AddedDate, Year, Sales) VALUES('$albumName', '$artistID', '$userID', '$date', '$year', '$sales');");
+                }
+                else{
+                    $albumName = $checkAlbum[0];
                 }
             }
 
             //echo $song;
             if ($song != NULL) {
                 $checkSong = mysqli_fetch_array($conn->query("SELECT SongName, ArtistID FROM song WHERE SongName = '$song' AND ArtistID = '$artistID';"));
-                if (count($checkSong) == 0) {
+                if ($checkSong == NULL) {
                     //add song
                     //echo "within adding song";
-                    $conn->query("INSERT INTO song(SongName, ArtistID, AlbumName, AdminWhoAddedID, AddedDate) VALUES('$song', '$artistID', '$albumName', '$userID', '$date');");
+                    $conn->query("INSERT INTO song(SongName, ArtistID, AlbumName, AdminWhoAddedID, AddedDate, Genre, Length) VALUES('$song', '$artistID', '$albumName', '$userID', '$date', '$genre', '$length');");
                 }
             }
         }
+        
 
         function test_input($data) {
             $data = trim($data);
@@ -106,26 +139,34 @@ if ($_SESSION["Mode"] != "Admin") {
         }
         ?>
         <h3>Admin Page</h3>
-        <br>
-
-        TODO: <br>
-        UserID: <?php echo $_SESSION["UserID"] ?><br>
-        Add Music:
-        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-            Artist: <input type="text" name="Artist" value="" /><br><br>
-            Album: <input type="text" name="Album" value="" /><br><br>
-            Song: <input type="text" name="Song" value="" /><br><br>
-            <input type="submit" name="Add" value="Add Music!" /><br><br>  
-        </form>
-        form 1: add artist- note: artist must be added before a song and album can be added<br>
-        form 2: add song- note: a song might NOT belong to an album, but must belong to an artist<br>
-        form 3: add album<br>
+        <?php
+        if (userID != "" && userID != NULL) {
+            $sql = "SELECT * FROM admin WHERE AdminID = '$userID'";
+            $result = $conn->query($sql);
+            if ($result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                    echo "Admin: " . $row["AdminID"] . " - " . $row["Name"] . "<br>"; 
+                }
+            }
+        }
+        ?>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">  
             <input type="submit" name="Logout" value="Logout" />
-
         </form>
-        logout button^<br>
-
+        <br><br>
+        <b><i>Add Music</b></i><br><br>
+        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+            Artist Name: <input type="text" name="Artist"  value="" /><br><br>
+            Real Name: <input type="text" name="RealName"  value="" /><br><br>
+            Album: <input type="text" name="Album"  value="" /><br><br>
+            Song: <input type="text" name="Song"  value="" /><br><br>
+            Year: <input type="text" name="Year" onfocus="if (this.value=='Album year') this.value = ''" value="Album year" /><br><br>
+            Sales: <input type="text" name="Sales" onfocus="if (this.value=='Album sales') this.value = ''" value="Album sales" /><br><br>
+            Genre: <input type="text" name="Genre" onfocus="if (this.value=='Song genre') this.value = ''" value="Song genre" /><br><br>
+            Length: <input type="text" name="Length" onfocus="if (this.value=='Song length') this.value = ''" value="Song length" /><br><br>
+            <input type="submit" name="Add" value="Add Music!" /><br><br>  
+        </form>
+        
         <?php
         $conn->close();            //close the connection to database
         ?>

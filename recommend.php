@@ -16,6 +16,10 @@ if ($_SESSION["UserID"] == NULL) {
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles/style.css">
         <title>Music Sharing-Recommend</title>
+        <style type="text/css">
+            td { width: 100px;}
+            table { table-layout: fixed; }
+        </style>
     </head>
     <body>
         <?php
@@ -36,7 +40,7 @@ if ($_SESSION["UserID"] == NULL) {
             $data = htmlspecialchars($data);
             return $data;
         }
-
+        
         if ($Logout === "Logout") {
             $_SESSION["Mode"] = "";
             $_SESSION["UserID"] = "";
@@ -61,6 +65,18 @@ if ($_SESSION["UserID"] == NULL) {
         
         <h3>Recommend</h3>
         
+        <?php
+        if (userID != "" && userID != NULL) {
+            $sql = "SELECT * FROM user WHERE UserID = '$userID'";
+            $result = $conn->query($sql);
+            if ($result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                    echo "User: " . $row["UserID"] . " - " . $row["Name"] . "<br>"; 
+                }
+            }
+        }
+        ?>
+        
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">  
             <input type="submit" name="Logout" value="Logout" />
         </form>
@@ -80,7 +96,7 @@ if ($_SESSION["UserID"] == NULL) {
             </tr>
         </table>
         <br><br>
-        Recommend a song to another user:
+        <i><b>Recommend a song to another user:</i></b><br>
         <form action="recommend.php" method="post">
             Song Name: <input type="text" name="songname"><br>
             Artist ID: <input type="text" name="artistID"><br>

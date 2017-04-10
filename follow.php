@@ -16,6 +16,10 @@ if ($_SESSION["UserID"] == NULL) {
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles/style.css">
         <title>Music Sharing-Follow</title>
+        <style type="text/css">
+            td { width: 100px;}
+            table { table-layout: fixed; }
+        </style>
     </head>
     <body>
         <?php
@@ -57,7 +61,17 @@ if ($_SESSION["UserID"] == NULL) {
         mysqli_query($conn,$sql);
         ?>
         <h3>Follow</h3>
-        
+        <?php
+        if (userID != "" && userID != NULL) {
+            $sql = "SELECT * FROM user WHERE UserID = '$userID'";
+            $result = $conn->query($sql);
+            if ($result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                    echo "User: " . $row["UserID"] . " - " . $row["Name"] . "<br>"; 
+                }
+            }
+        }
+        ?>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">  
             <input type="submit" name="Logout" value="Logout" />
         </form>
@@ -90,7 +104,7 @@ if ($_SESSION["UserID"] == NULL) {
         
         <?php
         //Display who this user is following
-        echo "You are following these users:<br>";
+        echo "<i><b>You are following these users:</i></b><br><br>";
         $sql = "SELECT * FROM following WHERE FollowerID = '$userID'";
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
@@ -99,7 +113,7 @@ if ($_SESSION["UserID"] == NULL) {
             }
         }
         //Display who is following this user
-        echo "<br>These users follow you:<br>";
+        echo "<br><i><b>These users follow you:</i></b><br><br>";
         $sql = "SELECT * FROM following WHERE FolloweeID = '$userID'";
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
