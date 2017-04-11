@@ -128,11 +128,12 @@ if ($_SESSION["UserID"] == NULL) {
         
         <?php
         //Display number of strikes against user
-        $sql = "SELECT * FROM user_warning WHERE UserID = '$userID'";
+        echo "<i><b>Total number of strikes against you:</i></b> ";
+        $sql = "SELECT SUM(NumStrikes) AS sum FROM user_warning WHERE UserID = '$userID'";
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
             while ($row = $result->fetch_assoc()) {
-                echo "<i><b>Total number of strikes against you:</i></b> " . $row["NumStrikes"];
+                echo $row["sum"];
             }
         }
         

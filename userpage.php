@@ -71,6 +71,7 @@ if ($_SESSION["UserID"] == NULL) {
                 <td><a href="http://projbsn.cpsc.ucalgary.ca/searchalbum.php">Search Album</a></td>
                 <td><a href="http://projbsn.cpsc.ucalgary.ca/searchartist.php">Search Artist</a></td>
                 <td><a href="http://projbsn.cpsc.ucalgary.ca/searchreview.php">Search Review</a></td>
+                <td><a href="http://projbsn.cpsc.ucalgary.ca/searchuser.php">Search User</a></td>
             </tr>
         </table>
         <br>

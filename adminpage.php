@@ -48,18 +48,7 @@ if ($_SESSION["Mode"] != "Admin") {
             $sales = test_input($_POST["Sales"]);
         }
         
-        if ($artistName == "Artist stage name") {
-            $artistName = NULL;
-        }
-        if ($realName == "Artist real name") {
-            $realName = NULL;
-        }
-        if ($albumName == "Album name") {
-            $albumName = NULL;
-        }
-        if ($song == "Song name") {
-            $song = NULL;
-        }
+        
         if ($year == "Album year") {
             $year = NULL;
         }

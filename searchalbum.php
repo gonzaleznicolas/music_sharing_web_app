@@ -56,6 +56,8 @@ session_start();
         <a href="http://projbsn.cpsc.ucalgary.ca/searchartist.php">Search Artist</a>
         &nbsp&nbsp&nbsp&nbsp
         <a href="http://projbsn.cpsc.ucalgary.ca/searchreview.php">Search Review</a>
+        &nbsp&nbsp&nbsp&nbsp
+        <a href="http://projbsn.cpsc.ucalgary.ca/searchuser.php">Search User</a>
         <br>
         <br>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">  

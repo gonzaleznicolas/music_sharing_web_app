@@ -27,16 +27,10 @@
         <a href="http://projbsn.cpsc.ucalgary.ca/searchsong.php">Search Song</a>&nbsp&nbsp&nbsp&nbsp
         <a href="http://projbsn.cpsc.ucalgary.ca/searchalbum.php">Search Album</a>&nbsp&nbsp&nbsp&nbsp
         <a href="http://projbsn.cpsc.ucalgary.ca/searchartist.php">Search Artist</a>&nbsp&nbsp&nbsp&nbsp
-        <a href="http://projbsn.cpsc.ucalgary.ca/searchreview.php">Search Review</a><br><br>
+        <a href="http://projbsn.cpsc.ucalgary.ca/searchreview.php">Search Review</a>&nbsp&nbsp&nbsp&nbsp
+        <a href="http://projbsn.cpsc.ucalgary.ca/searchuser.php">Search User</a><br><br>
 
-        delete all of these later: <br>
-        <a href="http://projbsn.cpsc.ucalgary.ca/userpage.php">User Page</a><br>
-        <a href="http://projbsn.cpsc.ucalgary.ca/index.php">Home Page</a><br>
-        <a href="http://projbsn.cpsc.ucalgary.ca/loginform.php">Login Form</a><br>
-        <a href="http://projbsn.cpsc.ucalgary.ca/newuserform.php">New User Form</a><br>
-        <a href="http://projbsn.cpsc.ucalgary.ca/adminpage.php">Admin Page</a><br>
-        <a href="http://projbsn.cpsc.ucalgary.ca/moderatorpage.php">Moderator Page</a><br>
-        <br>        
+
         
         
         <?php

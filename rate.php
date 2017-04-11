@@ -116,7 +116,7 @@ if ($_SESSION["UserID"] == NULL) {
                     <option value="album">Album</option>
                     <option value="song">Song</option>
                 </select> &nbsp;&nbsp;&nbsp;&nbsp;
-            Album or Artist name: <input type="text" name="otherID"><br>
+            Album or Song name: <input type="text" name="otherID"><br>
             <input type="submit" value="Submit">
         </form>
         <br><br>

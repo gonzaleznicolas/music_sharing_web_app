@@ -6355,3 +6355,652 @@ Stack trace:
 [10-Apr-2017 20:26:32 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
 [10-Apr-2017 20:26:36 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
 [10-Apr-2017 20:26:36 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[10-Apr-2017 20:29:25 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[10-Apr-2017 20:29:25 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[10-Apr-2017 20:29:31 UTC] PHP Notice:  Undefined index: Logout in /home/projbsn/public_html/moderatorpage.php on line 36
+[10-Apr-2017 20:40:15 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchsong.php on line 24
+[10-Apr-2017 20:40:15 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[10-Apr-2017 20:40:15 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[10-Apr-2017 20:41:11 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchsong.php on line 24
+[10-Apr-2017 20:41:11 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[10-Apr-2017 20:41:11 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[10-Apr-2017 20:43:03 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchartist.php on line 24
+[10-Apr-2017 20:43:03 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[10-Apr-2017 20:43:03 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[10-Apr-2017 20:50:15 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchalbum.php on line 23
+[10-Apr-2017 20:50:15 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchalbum.php on line 40
+[10-Apr-2017 20:50:15 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchalbum.php on line 40
+[10-Apr-2017 20:51:14 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchreview.php on line 24
+[10-Apr-2017 20:51:14 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[10-Apr-2017 20:51:14 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[10-Apr-2017 20:55:44 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchreview.php on line 24
+[10-Apr-2017 20:55:44 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[10-Apr-2017 20:55:44 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[10-Apr-2017 21:06:51 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchreview.php on line 24
+[10-Apr-2017 21:06:51 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[10-Apr-2017 21:06:51 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[10-Apr-2017 21:07:02 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchreview.php on line 24
+[10-Apr-2017 21:07:02 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[10-Apr-2017 21:07:02 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[10-Apr-2017 21:07:08 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchreview.php on line 24
+[10-Apr-2017 21:07:08 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[10-Apr-2017 21:07:08 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[10-Apr-2017 21:09:14 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[10-Apr-2017 21:09:14 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[10-Apr-2017 21:09:32 UTC] PHP Notice:  Undefined index: Logout in /home/projbsn/public_html/moderatorpage.php on line 36
+[10-Apr-2017 21:09:34 UTC] PHP Notice:  Undefined index: ReviewID in /home/projbsn/public_html/moderatorpage.php on line 37
+[10-Apr-2017 21:09:34 UTC] PHP Notice:  Undefined index: Add in /home/projbsn/public_html/moderatorpage.php on line 38
+[10-Apr-2017 21:11:28 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[10-Apr-2017 21:11:28 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[10-Apr-2017 21:11:28 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[10-Apr-2017 21:11:28 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 21:11:28 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 21:11:34 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 44
+[10-Apr-2017 21:11:34 UTC] PHP Notice:  Undefined index: type in /home/projbsn/public_html/review.php on line 52
+[10-Apr-2017 21:11:34 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/review.php on line 53
+[10-Apr-2017 21:11:34 UTC] PHP Notice:  Undefined index: review in /home/projbsn/public_html/review.php on line 54
+[10-Apr-2017 21:11:34 UTC] PHP Notice:  Undefined index: otherID in /home/projbsn/public_html/review.php on line 55
+[10-Apr-2017 21:11:34 UTC] PHP Notice:  Undefined variable: rating in /home/projbsn/public_html/review.php on line 63
+[10-Apr-2017 21:11:34 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 21:11:34 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 21:12:23 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 44
+[10-Apr-2017 21:12:23 UTC] PHP Notice:  Undefined index: type in /home/projbsn/public_html/review.php on line 52
+[10-Apr-2017 21:12:23 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/review.php on line 53
+[10-Apr-2017 21:12:23 UTC] PHP Notice:  Undefined index: review in /home/projbsn/public_html/review.php on line 54
+[10-Apr-2017 21:12:23 UTC] PHP Notice:  Undefined index: otherID in /home/projbsn/public_html/review.php on line 55
+[10-Apr-2017 21:12:23 UTC] PHP Notice:  Undefined variable: rating in /home/projbsn/public_html/review.php on line 63
+[10-Apr-2017 21:12:23 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 21:12:23 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 21:13:39 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 44
+[10-Apr-2017 21:13:39 UTC] PHP Notice:  Undefined index: type in /home/projbsn/public_html/review.php on line 52
+[10-Apr-2017 21:13:39 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/review.php on line 53
+[10-Apr-2017 21:13:39 UTC] PHP Notice:  Undefined index: review in /home/projbsn/public_html/review.php on line 54
+[10-Apr-2017 21:13:39 UTC] PHP Notice:  Undefined index: otherID in /home/projbsn/public_html/review.php on line 55
+[10-Apr-2017 21:13:39 UTC] PHP Notice:  Undefined variable: rating in /home/projbsn/public_html/review.php on line 63
+[10-Apr-2017 21:13:39 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 21:13:39 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 21:13:51 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[10-Apr-2017 21:13:51 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[10-Apr-2017 21:14:25 UTC] PHP Notice:  Undefined index: Logout in /home/projbsn/public_html/moderatorpage.php on line 36
+[10-Apr-2017 21:14:28 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 44
+[10-Apr-2017 21:14:28 UTC] PHP Notice:  Undefined index: type in /home/projbsn/public_html/review.php on line 52
+[10-Apr-2017 21:14:28 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/review.php on line 53
+[10-Apr-2017 21:14:28 UTC] PHP Notice:  Undefined index: review in /home/projbsn/public_html/review.php on line 54
+[10-Apr-2017 21:14:28 UTC] PHP Notice:  Undefined index: otherID in /home/projbsn/public_html/review.php on line 55
+[10-Apr-2017 21:14:28 UTC] PHP Notice:  Undefined variable: rating in /home/projbsn/public_html/review.php on line 63
+[10-Apr-2017 21:14:28 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 21:14:28 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 21:15:24 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 44
+[10-Apr-2017 21:15:24 UTC] PHP Notice:  Undefined index: type in /home/projbsn/public_html/review.php on line 52
+[10-Apr-2017 21:15:24 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/review.php on line 53
+[10-Apr-2017 21:15:24 UTC] PHP Notice:  Undefined index: review in /home/projbsn/public_html/review.php on line 54
+[10-Apr-2017 21:15:24 UTC] PHP Notice:  Undefined index: otherID in /home/projbsn/public_html/review.php on line 55
+[10-Apr-2017 21:15:24 UTC] PHP Notice:  Undefined variable: rating in /home/projbsn/public_html/review.php on line 63
+[10-Apr-2017 21:15:24 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 21:15:24 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 21:15:26 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 44
+[10-Apr-2017 21:15:26 UTC] PHP Notice:  Undefined index: type in /home/projbsn/public_html/review.php on line 52
+[10-Apr-2017 21:15:26 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/review.php on line 53
+[10-Apr-2017 21:15:26 UTC] PHP Notice:  Undefined index: review in /home/projbsn/public_html/review.php on line 54
+[10-Apr-2017 21:15:26 UTC] PHP Notice:  Undefined index: otherID in /home/projbsn/public_html/review.php on line 55
+[10-Apr-2017 21:15:26 UTC] PHP Notice:  Undefined variable: rating in /home/projbsn/public_html/review.php on line 63
+[10-Apr-2017 21:15:26 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 21:15:26 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 21:16:13 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 44
+[10-Apr-2017 21:16:13 UTC] PHP Notice:  Undefined index: type in /home/projbsn/public_html/review.php on line 52
+[10-Apr-2017 21:16:13 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/review.php on line 53
+[10-Apr-2017 21:16:13 UTC] PHP Notice:  Undefined index: review in /home/projbsn/public_html/review.php on line 54
+[10-Apr-2017 21:16:13 UTC] PHP Notice:  Undefined index: otherID in /home/projbsn/public_html/review.php on line 55
+[10-Apr-2017 21:16:13 UTC] PHP Notice:  Undefined variable: rating in /home/projbsn/public_html/review.php on line 63
+[10-Apr-2017 21:16:13 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 21:16:13 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 21:17:44 UTC] PHP Notice:  Undefined index: ReviewID in /home/projbsn/public_html/moderatorpage.php on line 37
+[10-Apr-2017 21:17:44 UTC] PHP Notice:  Undefined index: Add in /home/projbsn/public_html/moderatorpage.php on line 38
+[10-Apr-2017 21:17:47 UTC] PHP Notice:  Undefined index: ReviewID in /home/projbsn/public_html/moderatorpage.php on line 37
+[10-Apr-2017 21:17:47 UTC] PHP Notice:  Undefined index: Add in /home/projbsn/public_html/moderatorpage.php on line 38
+[10-Apr-2017 21:17:53 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[10-Apr-2017 21:17:53 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[10-Apr-2017 21:17:53 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[10-Apr-2017 21:17:53 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 21:17:53 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 21:17:56 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/follow.php on line 43
+[10-Apr-2017 21:17:56 UTC] PHP Notice:  Undefined index: followid in /home/projbsn/public_html/follow.php on line 51
+[10-Apr-2017 21:17:56 UTC] PHP Notice:  Undefined index: unfollowid in /home/projbsn/public_html/follow.php on line 56
+[10-Apr-2017 21:17:56 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/follow.php on line 65
+[10-Apr-2017 21:17:56 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/follow.php on line 65
+[10-Apr-2017 21:19:42 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 44
+[10-Apr-2017 21:19:42 UTC] PHP Notice:  Undefined index: type in /home/projbsn/public_html/review.php on line 52
+[10-Apr-2017 21:19:42 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/review.php on line 53
+[10-Apr-2017 21:19:42 UTC] PHP Notice:  Undefined index: review in /home/projbsn/public_html/review.php on line 54
+[10-Apr-2017 21:19:42 UTC] PHP Notice:  Undefined index: otherID in /home/projbsn/public_html/review.php on line 55
+[10-Apr-2017 21:19:42 UTC] PHP Notice:  Undefined variable: rating in /home/projbsn/public_html/review.php on line 63
+[10-Apr-2017 21:19:42 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 21:19:42 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 21:19:47 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[10-Apr-2017 21:19:47 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[10-Apr-2017 21:19:47 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[10-Apr-2017 21:19:47 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 21:19:47 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 21:19:49 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/rate.php on line 44
+[10-Apr-2017 21:19:49 UTC] PHP Notice:  Undefined index: type in /home/projbsn/public_html/rate.php on line 53
+[10-Apr-2017 21:19:49 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/rate.php on line 54
+[10-Apr-2017 21:19:49 UTC] PHP Notice:  Undefined index: rating in /home/projbsn/public_html/rate.php on line 55
+[10-Apr-2017 21:19:49 UTC] PHP Notice:  Undefined index: otherID in /home/projbsn/public_html/rate.php on line 56
+[10-Apr-2017 21:19:49 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/rate.php on line 78
+[10-Apr-2017 21:19:49 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/rate.php on line 78
+[10-Apr-2017 21:22:14 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/rate.php on line 44
+[10-Apr-2017 21:22:14 UTC] PHP Notice:  Undefined index: type in /home/projbsn/public_html/rate.php on line 53
+[10-Apr-2017 21:22:14 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/rate.php on line 54
+[10-Apr-2017 21:22:14 UTC] PHP Notice:  Undefined index: rating in /home/projbsn/public_html/rate.php on line 55
+[10-Apr-2017 21:22:14 UTC] PHP Notice:  Undefined index: otherID in /home/projbsn/public_html/rate.php on line 56
+[10-Apr-2017 21:22:14 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/rate.php on line 78
+[10-Apr-2017 21:22:14 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/rate.php on line 78
+[10-Apr-2017 21:26:20 UTC] PHP Notice:  Undefined index: Logout in /home/projbsn/public_html/review.php on line 34
+[10-Apr-2017 21:26:20 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 21:26:20 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 21:27:25 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/recommend.php on line 44
+[10-Apr-2017 21:27:25 UTC] PHP Notice:  Undefined index: songname in /home/projbsn/public_html/recommend.php on line 53
+[10-Apr-2017 21:27:25 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/recommend.php on line 54
+[10-Apr-2017 21:27:25 UTC] PHP Notice:  Undefined index: recommendID in /home/projbsn/public_html/recommend.php on line 55
+[10-Apr-2017 21:27:25 UTC] PHP Notice:  Undefined index: message in /home/projbsn/public_html/recommend.php on line 56
+[10-Apr-2017 21:27:25 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/recommend.php on line 69
+[10-Apr-2017 21:27:25 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/recommend.php on line 69
+[10-Apr-2017 21:30:22 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/recommend.php on line 44
+[10-Apr-2017 21:30:22 UTC] PHP Notice:  Undefined index: songname in /home/projbsn/public_html/recommend.php on line 53
+[10-Apr-2017 21:30:22 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/recommend.php on line 54
+[10-Apr-2017 21:30:22 UTC] PHP Notice:  Undefined index: recommendID in /home/projbsn/public_html/recommend.php on line 55
+[10-Apr-2017 21:30:22 UTC] PHP Notice:  Undefined index: message in /home/projbsn/public_html/recommend.php on line 56
+[10-Apr-2017 21:30:22 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/recommend.php on line 69
+[10-Apr-2017 21:30:22 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/recommend.php on line 69
+[10-Apr-2017 21:53:37 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[10-Apr-2017 21:53:37 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[10-Apr-2017 22:00:28 UTC] PHP Notice:  Undefined index: Logout in /home/projbsn/public_html/moderatorpage.php on line 36
+[10-Apr-2017 22:04:12 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[10-Apr-2017 22:04:12 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[10-Apr-2017 22:04:12 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[10-Apr-2017 22:04:12 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 22:04:12 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 22:04:21 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[10-Apr-2017 22:04:21 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[10-Apr-2017 22:04:45 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[10-Apr-2017 22:04:45 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[10-Apr-2017 22:04:51 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[10-Apr-2017 22:04:51 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[10-Apr-2017 22:04:54 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchalbum.php on line 40
+[10-Apr-2017 22:04:54 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchalbum.php on line 40
+[10-Apr-2017 22:08:54 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[10-Apr-2017 22:08:54 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[10-Apr-2017 22:08:54 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[10-Apr-2017 22:08:54 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 22:08:54 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 22:09:02 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 44
+[10-Apr-2017 22:09:02 UTC] PHP Notice:  Undefined index: type in /home/projbsn/public_html/review.php on line 52
+[10-Apr-2017 22:09:02 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/review.php on line 53
+[10-Apr-2017 22:09:02 UTC] PHP Notice:  Undefined index: review in /home/projbsn/public_html/review.php on line 54
+[10-Apr-2017 22:09:02 UTC] PHP Notice:  Undefined index: otherID in /home/projbsn/public_html/review.php on line 55
+[10-Apr-2017 22:09:02 UTC] PHP Notice:  Undefined variable: rating in /home/projbsn/public_html/review.php on line 63
+[10-Apr-2017 22:09:02 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 22:09:02 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 22:32:39 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[10-Apr-2017 22:32:39 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[10-Apr-2017 22:34:21 UTC] PHP Notice:  Undefined index: ReviewID in /home/projbsn/public_html/moderatorpage.php on line 37
+[10-Apr-2017 22:34:21 UTC] PHP Notice:  Undefined index: Add in /home/projbsn/public_html/moderatorpage.php on line 38
+[10-Apr-2017 22:34:27 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[10-Apr-2017 22:34:27 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[10-Apr-2017 22:34:27 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[10-Apr-2017 22:34:27 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 22:34:27 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 22:34:29 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/recommend.php on line 44
+[10-Apr-2017 22:34:29 UTC] PHP Notice:  Undefined index: songname in /home/projbsn/public_html/recommend.php on line 53
+[10-Apr-2017 22:34:29 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/recommend.php on line 54
+[10-Apr-2017 22:34:29 UTC] PHP Notice:  Undefined index: recommendID in /home/projbsn/public_html/recommend.php on line 55
+[10-Apr-2017 22:34:29 UTC] PHP Notice:  Undefined index: message in /home/projbsn/public_html/recommend.php on line 56
+[10-Apr-2017 22:34:29 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/recommend.php on line 69
+[10-Apr-2017 22:34:29 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/recommend.php on line 69
+[10-Apr-2017 22:34:30 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 44
+[10-Apr-2017 22:34:30 UTC] PHP Notice:  Undefined index: type in /home/projbsn/public_html/review.php on line 52
+[10-Apr-2017 22:34:30 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/review.php on line 53
+[10-Apr-2017 22:34:30 UTC] PHP Notice:  Undefined index: review in /home/projbsn/public_html/review.php on line 54
+[10-Apr-2017 22:34:30 UTC] PHP Notice:  Undefined index: otherID in /home/projbsn/public_html/review.php on line 55
+[10-Apr-2017 22:34:30 UTC] PHP Notice:  Undefined variable: rating in /home/projbsn/public_html/review.php on line 63
+[10-Apr-2017 22:34:30 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 22:34:30 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 22:36:14 UTC] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home/projbsn/public_html/review.php on line 132
+[10-Apr-2017 22:36:26 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 44
+[10-Apr-2017 22:36:26 UTC] PHP Notice:  Undefined index: type in /home/projbsn/public_html/review.php on line 52
+[10-Apr-2017 22:36:26 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/review.php on line 53
+[10-Apr-2017 22:36:26 UTC] PHP Notice:  Undefined index: review in /home/projbsn/public_html/review.php on line 54
+[10-Apr-2017 22:36:26 UTC] PHP Notice:  Undefined index: otherID in /home/projbsn/public_html/review.php on line 55
+[10-Apr-2017 22:36:26 UTC] PHP Notice:  Undefined variable: rating in /home/projbsn/public_html/review.php on line 63
+[10-Apr-2017 22:36:26 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 22:36:26 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 22:37:38 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 44
+[10-Apr-2017 22:37:38 UTC] PHP Notice:  Undefined index: type in /home/projbsn/public_html/review.php on line 52
+[10-Apr-2017 22:37:38 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/review.php on line 53
+[10-Apr-2017 22:37:38 UTC] PHP Notice:  Undefined index: review in /home/projbsn/public_html/review.php on line 54
+[10-Apr-2017 22:37:38 UTC] PHP Notice:  Undefined index: otherID in /home/projbsn/public_html/review.php on line 55
+[10-Apr-2017 22:37:38 UTC] PHP Notice:  Undefined variable: rating in /home/projbsn/public_html/review.php on line 63
+[10-Apr-2017 22:37:38 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 22:37:38 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 22:37:38 UTC] PHP Notice:  Undefined index: NumStrikes in /home/projbsn/public_html/review.php on line 136
+[10-Apr-2017 22:37:49 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 44
+[10-Apr-2017 22:37:49 UTC] PHP Notice:  Undefined index: type in /home/projbsn/public_html/review.php on line 52
+[10-Apr-2017 22:37:49 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/review.php on line 53
+[10-Apr-2017 22:37:49 UTC] PHP Notice:  Undefined index: review in /home/projbsn/public_html/review.php on line 54
+[10-Apr-2017 22:37:49 UTC] PHP Notice:  Undefined index: otherID in /home/projbsn/public_html/review.php on line 55
+[10-Apr-2017 22:37:49 UTC] PHP Notice:  Undefined variable: rating in /home/projbsn/public_html/review.php on line 63
+[10-Apr-2017 22:37:49 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 22:37:49 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 22:52:38 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[10-Apr-2017 22:52:38 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[10-Apr-2017 22:52:38 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[10-Apr-2017 22:52:38 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 22:52:38 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 22:52:40 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/recommend.php on line 44
+[10-Apr-2017 22:52:40 UTC] PHP Notice:  Undefined index: songname in /home/projbsn/public_html/recommend.php on line 53
+[10-Apr-2017 22:52:40 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/recommend.php on line 54
+[10-Apr-2017 22:52:40 UTC] PHP Notice:  Undefined index: recommendID in /home/projbsn/public_html/recommend.php on line 55
+[10-Apr-2017 22:52:40 UTC] PHP Notice:  Undefined index: message in /home/projbsn/public_html/recommend.php on line 56
+[10-Apr-2017 22:52:40 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/recommend.php on line 69
+[10-Apr-2017 22:52:40 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/recommend.php on line 69
+[10-Apr-2017 22:52:44 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 44
+[10-Apr-2017 22:52:44 UTC] PHP Notice:  Undefined index: type in /home/projbsn/public_html/review.php on line 52
+[10-Apr-2017 22:52:44 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/review.php on line 53
+[10-Apr-2017 22:52:44 UTC] PHP Notice:  Undefined index: review in /home/projbsn/public_html/review.php on line 54
+[10-Apr-2017 22:52:44 UTC] PHP Notice:  Undefined index: otherID in /home/projbsn/public_html/review.php on line 55
+[10-Apr-2017 22:52:44 UTC] PHP Notice:  Undefined variable: rating in /home/projbsn/public_html/review.php on line 63
+[10-Apr-2017 22:52:44 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 22:52:44 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 22:56:12 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchartist.php on line 24
+[10-Apr-2017 22:56:12 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[10-Apr-2017 22:56:12 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[10-Apr-2017 22:59:02 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 44
+[10-Apr-2017 22:59:02 UTC] PHP Notice:  Undefined index: type in /home/projbsn/public_html/review.php on line 52
+[10-Apr-2017 22:59:02 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/review.php on line 53
+[10-Apr-2017 22:59:02 UTC] PHP Notice:  Undefined index: review in /home/projbsn/public_html/review.php on line 54
+[10-Apr-2017 22:59:02 UTC] PHP Notice:  Undefined index: otherID in /home/projbsn/public_html/review.php on line 55
+[10-Apr-2017 22:59:02 UTC] PHP Notice:  Undefined variable: rating in /home/projbsn/public_html/review.php on line 63
+[10-Apr-2017 22:59:02 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 22:59:02 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 23:00:15 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchartist.php on line 24
+[10-Apr-2017 23:00:15 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[10-Apr-2017 23:00:15 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[10-Apr-2017 23:00:19 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[10-Apr-2017 23:00:19 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:00:19 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:00:22 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchartist.php on line 24
+[10-Apr-2017 23:00:22 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[10-Apr-2017 23:00:22 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[10-Apr-2017 23:00:23 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchalbum.php on line 23
+[10-Apr-2017 23:00:23 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchalbum.php on line 40
+[10-Apr-2017 23:00:23 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchalbum.php on line 40
+[10-Apr-2017 23:00:33 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchsong.php on line 24
+[10-Apr-2017 23:00:33 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[10-Apr-2017 23:00:33 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[10-Apr-2017 23:02:33 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchartist.php on line 24
+[10-Apr-2017 23:02:33 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[10-Apr-2017 23:02:33 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[10-Apr-2017 23:02:39 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchsong.php on line 24
+[10-Apr-2017 23:02:39 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[10-Apr-2017 23:02:39 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[10-Apr-2017 23:02:41 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchalbum.php on line 23
+[10-Apr-2017 23:02:41 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchalbum.php on line 40
+[10-Apr-2017 23:02:41 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchalbum.php on line 40
+[10-Apr-2017 23:03:07 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchalbum.php on line 23
+[10-Apr-2017 23:03:07 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchalbum.php on line 40
+[10-Apr-2017 23:03:07 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchalbum.php on line 40
+[10-Apr-2017 23:03:09 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchreview.php on line 24
+[10-Apr-2017 23:03:09 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[10-Apr-2017 23:03:09 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[10-Apr-2017 23:03:12 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchartist.php on line 24
+[10-Apr-2017 23:03:12 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[10-Apr-2017 23:03:12 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[10-Apr-2017 23:03:14 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchalbum.php on line 23
+[10-Apr-2017 23:03:14 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchalbum.php on line 40
+[10-Apr-2017 23:03:14 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchalbum.php on line 40
+[10-Apr-2017 23:03:16 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchsong.php on line 24
+[10-Apr-2017 23:03:16 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[10-Apr-2017 23:03:16 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[10-Apr-2017 23:03:18 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/userpage.php on line 5
+[10-Apr-2017 23:03:26 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[10-Apr-2017 23:03:26 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[10-Apr-2017 23:03:26 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[10-Apr-2017 23:03:26 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 23:03:26 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 23:04:17 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[10-Apr-2017 23:04:17 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 23:04:17 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 23:04:20 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[10-Apr-2017 23:04:20 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[10-Apr-2017 23:04:22 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:04:22 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:07:24 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchalbum.php on line 40
+[10-Apr-2017 23:07:24 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchalbum.php on line 40
+[10-Apr-2017 23:07:26 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[10-Apr-2017 23:07:26 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[10-Apr-2017 23:07:28 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:07:28 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:07:38 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[10-Apr-2017 23:07:38 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 23:07:38 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 23:07:45 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchreview.php on line 24
+[10-Apr-2017 23:07:45 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[10-Apr-2017 23:07:45 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[10-Apr-2017 23:07:47 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[10-Apr-2017 23:07:47 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:07:47 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:09:02 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[10-Apr-2017 23:09:02 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:09:02 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:09:06 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchreview.php on line 24
+[10-Apr-2017 23:09:06 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[10-Apr-2017 23:09:06 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[10-Apr-2017 23:09:08 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchartist.php on line 24
+[10-Apr-2017 23:09:08 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[10-Apr-2017 23:09:08 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[10-Apr-2017 23:09:09 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchalbum.php on line 23
+[10-Apr-2017 23:09:09 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchalbum.php on line 40
+[10-Apr-2017 23:09:09 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchalbum.php on line 40
+[10-Apr-2017 23:09:10 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchsong.php on line 24
+[10-Apr-2017 23:09:10 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[10-Apr-2017 23:09:10 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[10-Apr-2017 23:09:14 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[10-Apr-2017 23:09:14 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:09:14 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:09:53 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[10-Apr-2017 23:09:53 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:09:53 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:09:56 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[10-Apr-2017 23:09:56 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:09:56 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:13:59 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[10-Apr-2017 23:13:59 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:13:59 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:14:01 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[10-Apr-2017 23:14:01 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:14:01 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:14:11 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[10-Apr-2017 23:14:11 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:14:11 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:15:52 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[10-Apr-2017 23:15:52 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:15:52 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:15:53 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[10-Apr-2017 23:15:53 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:15:53 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:16:00 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[10-Apr-2017 23:16:00 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:16:00 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:16:06 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[10-Apr-2017 23:16:06 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:16:06 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:16:11 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[10-Apr-2017 23:16:11 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:16:11 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:16:18 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[10-Apr-2017 23:16:18 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:16:18 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:17:33 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[10-Apr-2017 23:17:33 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:17:33 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:17:50 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[10-Apr-2017 23:17:50 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:17:50 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:18:02 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[10-Apr-2017 23:18:02 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:18:02 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:18:03 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[10-Apr-2017 23:18:03 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:18:03 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:22:47 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchalbum.php on line 23
+[10-Apr-2017 23:22:47 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchalbum.php on line 40
+[10-Apr-2017 23:22:47 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchalbum.php on line 40
+[10-Apr-2017 23:23:02 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[10-Apr-2017 23:23:02 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[10-Apr-2017 23:23:02 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[10-Apr-2017 23:23:02 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 23:23:02 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 23:23:11 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[10-Apr-2017 23:23:11 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[10-Apr-2017 23:23:13 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[10-Apr-2017 23:23:13 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 23:23:13 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 23:23:16 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/follow.php on line 43
+[10-Apr-2017 23:23:16 UTC] PHP Notice:  Undefined index: followid in /home/projbsn/public_html/follow.php on line 51
+[10-Apr-2017 23:23:16 UTC] PHP Notice:  Undefined index: unfollowid in /home/projbsn/public_html/follow.php on line 56
+[10-Apr-2017 23:23:16 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/follow.php on line 65
+[10-Apr-2017 23:23:16 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/follow.php on line 65
+[10-Apr-2017 23:23:18 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[10-Apr-2017 23:23:18 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 23:23:18 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 23:23:27 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:23:27 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:24:58 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:24:58 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:26:56 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[10-Apr-2017 23:26:56 UTC] PHP Notice:  Use of undefined constant year - assumed 'year' in /home/projbsn/public_html/adminpage.php on line 35
+[10-Apr-2017 23:26:56 UTC] PHP Notice:  Use of undefined constant mon - assumed 'mon' in /home/projbsn/public_html/adminpage.php on line 35
+[10-Apr-2017 23:26:56 UTC] PHP Notice:  Use of undefined constant mday - assumed 'mday' in /home/projbsn/public_html/adminpage.php on line 35
+[10-Apr-2017 23:26:56 UTC] PHP Notice:  Undefined variable: year in /home/projbsn/public_html/adminpage.php on line 52
+[10-Apr-2017 23:26:56 UTC] PHP Notice:  Undefined variable: sales in /home/projbsn/public_html/adminpage.php on line 55
+[10-Apr-2017 23:26:56 UTC] PHP Notice:  Undefined variable: genre in /home/projbsn/public_html/adminpage.php on line 58
+[10-Apr-2017 23:26:56 UTC] PHP Notice:  Undefined variable: length in /home/projbsn/public_html/adminpage.php on line 61
+[10-Apr-2017 23:26:56 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/adminpage.php on line 132
+[10-Apr-2017 23:26:56 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/adminpage.php on line 132
+[10-Apr-2017 23:27:01 UTC] PHP Notice:  Use of undefined constant year - assumed 'year' in /home/projbsn/public_html/adminpage.php on line 35
+[10-Apr-2017 23:27:01 UTC] PHP Notice:  Use of undefined constant mon - assumed 'mon' in /home/projbsn/public_html/adminpage.php on line 35
+[10-Apr-2017 23:27:01 UTC] PHP Notice:  Use of undefined constant mday - assumed 'mday' in /home/projbsn/public_html/adminpage.php on line 35
+[10-Apr-2017 23:27:01 UTC] PHP Notice:  Undefined index: Album in /home/projbsn/public_html/adminpage.php on line 41
+[10-Apr-2017 23:27:01 UTC] PHP Notice:  Undefined index: Artist in /home/projbsn/public_html/adminpage.php on line 42
+[10-Apr-2017 23:27:01 UTC] PHP Notice:  Undefined index: Song in /home/projbsn/public_html/adminpage.php on line 43
+[10-Apr-2017 23:27:01 UTC] PHP Notice:  Undefined index: RealName in /home/projbsn/public_html/adminpage.php on line 44
+[10-Apr-2017 23:27:01 UTC] PHP Notice:  Undefined index: Length in /home/projbsn/public_html/adminpage.php on line 45
+[10-Apr-2017 23:27:01 UTC] PHP Notice:  Undefined index: Year in /home/projbsn/public_html/adminpage.php on line 46
+[10-Apr-2017 23:27:01 UTC] PHP Notice:  Undefined index: Genre in /home/projbsn/public_html/adminpage.php on line 47
+[10-Apr-2017 23:27:01 UTC] PHP Notice:  Undefined index: Sales in /home/projbsn/public_html/adminpage.php on line 48
+[10-Apr-2017 23:43:40 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[10-Apr-2017 23:43:40 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:43:40 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:43:53 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchreview.php on line 24
+[10-Apr-2017 23:43:53 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[10-Apr-2017 23:43:53 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[10-Apr-2017 23:44:10 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/userpage.php on line 5
+[10-Apr-2017 23:44:30 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[10-Apr-2017 23:44:30 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[10-Apr-2017 23:44:30 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[10-Apr-2017 23:44:30 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 23:44:30 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 23:44:35 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 44
+[10-Apr-2017 23:44:35 UTC] PHP Notice:  Undefined index: type in /home/projbsn/public_html/review.php on line 52
+[10-Apr-2017 23:44:35 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/review.php on line 53
+[10-Apr-2017 23:44:35 UTC] PHP Notice:  Undefined index: review in /home/projbsn/public_html/review.php on line 54
+[10-Apr-2017 23:44:35 UTC] PHP Notice:  Undefined index: otherID in /home/projbsn/public_html/review.php on line 55
+[10-Apr-2017 23:44:35 UTC] PHP Notice:  Undefined variable: rating in /home/projbsn/public_html/review.php on line 63
+[10-Apr-2017 23:44:35 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 23:44:35 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[10-Apr-2017 23:44:41 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[10-Apr-2017 23:44:41 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 23:44:41 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 23:45:05 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:45:05 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:45:43 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:45:43 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:45:52 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:45:52 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[10-Apr-2017 23:46:00 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[10-Apr-2017 23:46:00 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 23:46:00 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[10-Apr-2017 23:46:08 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/follow.php on line 43
+[10-Apr-2017 23:46:08 UTC] PHP Notice:  Undefined index: followid in /home/projbsn/public_html/follow.php on line 51
+[10-Apr-2017 23:46:08 UTC] PHP Notice:  Undefined index: unfollowid in /home/projbsn/public_html/follow.php on line 56
+[10-Apr-2017 23:46:08 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/follow.php on line 65
+[10-Apr-2017 23:46:08 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/follow.php on line 65
+[10-Apr-2017 23:46:17 UTC] PHP Notice:  Undefined index: Logout in /home/projbsn/public_html/follow.php on line 33
+[10-Apr-2017 23:46:17 UTC] PHP Notice:  Undefined index: unfollowid in /home/projbsn/public_html/follow.php on line 56
+[10-Apr-2017 23:46:17 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/follow.php on line 65
+[10-Apr-2017 23:46:17 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/follow.php on line 65
+[10-Apr-2017 23:46:20 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/follow.php on line 43
+[10-Apr-2017 23:46:20 UTC] PHP Notice:  Undefined index: followid in /home/projbsn/public_html/follow.php on line 51
+[10-Apr-2017 23:46:20 UTC] PHP Notice:  Undefined index: unfollowid in /home/projbsn/public_html/follow.php on line 56
+[10-Apr-2017 23:46:20 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/follow.php on line 65
+[10-Apr-2017 23:46:20 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/follow.php on line 65
+[11-Apr-2017 00:00:14 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[11-Apr-2017 00:00:14 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[11-Apr-2017 00:00:14 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[11-Apr-2017 00:00:23 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[11-Apr-2017 00:00:23 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[11-Apr-2017 00:00:23 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[11-Apr-2017 00:00:23 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[11-Apr-2017 00:00:23 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[11-Apr-2017 00:00:28 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/follow.php on line 43
+[11-Apr-2017 00:00:28 UTC] PHP Notice:  Undefined index: followid in /home/projbsn/public_html/follow.php on line 51
+[11-Apr-2017 00:00:28 UTC] PHP Notice:  Undefined index: unfollowid in /home/projbsn/public_html/follow.php on line 56
+[11-Apr-2017 00:00:28 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/follow.php on line 65
+[11-Apr-2017 00:00:28 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/follow.php on line 65
+[11-Apr-2017 00:00:29 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/recommend.php on line 44
+[11-Apr-2017 00:00:29 UTC] PHP Notice:  Undefined index: songname in /home/projbsn/public_html/recommend.php on line 53
+[11-Apr-2017 00:00:29 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/recommend.php on line 54
+[11-Apr-2017 00:00:29 UTC] PHP Notice:  Undefined index: recommendID in /home/projbsn/public_html/recommend.php on line 55
+[11-Apr-2017 00:00:29 UTC] PHP Notice:  Undefined index: message in /home/projbsn/public_html/recommend.php on line 56
+[11-Apr-2017 00:00:29 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/recommend.php on line 69
+[11-Apr-2017 00:00:29 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/recommend.php on line 69
+[11-Apr-2017 00:00:29 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/rate.php on line 44
+[11-Apr-2017 00:00:29 UTC] PHP Notice:  Undefined index: type in /home/projbsn/public_html/rate.php on line 53
+[11-Apr-2017 00:00:29 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/rate.php on line 54
+[11-Apr-2017 00:00:29 UTC] PHP Notice:  Undefined index: rating in /home/projbsn/public_html/rate.php on line 55
+[11-Apr-2017 00:00:29 UTC] PHP Notice:  Undefined index: otherID in /home/projbsn/public_html/rate.php on line 56
+[11-Apr-2017 00:00:29 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/rate.php on line 78
+[11-Apr-2017 00:00:29 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/rate.php on line 78
+[11-Apr-2017 00:00:30 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 44
+[11-Apr-2017 00:00:30 UTC] PHP Notice:  Undefined index: type in /home/projbsn/public_html/review.php on line 52
+[11-Apr-2017 00:00:30 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/review.php on line 53
+[11-Apr-2017 00:00:30 UTC] PHP Notice:  Undefined index: review in /home/projbsn/public_html/review.php on line 54
+[11-Apr-2017 00:00:30 UTC] PHP Notice:  Undefined index: otherID in /home/projbsn/public_html/review.php on line 55
+[11-Apr-2017 00:00:30 UTC] PHP Notice:  Undefined variable: rating in /home/projbsn/public_html/review.php on line 63
+[11-Apr-2017 00:00:30 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[11-Apr-2017 00:00:30 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[11-Apr-2017 00:00:31 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[11-Apr-2017 00:00:31 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[11-Apr-2017 00:00:31 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[11-Apr-2017 00:01:13 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchartist.php on line 24
+[11-Apr-2017 00:01:13 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[11-Apr-2017 00:01:13 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[11-Apr-2017 00:01:14 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[11-Apr-2017 00:01:14 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[11-Apr-2017 00:01:14 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[11-Apr-2017 00:01:45 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[11-Apr-2017 00:01:45 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[11-Apr-2017 00:01:45 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[11-Apr-2017 00:03:32 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[11-Apr-2017 00:03:32 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[11-Apr-2017 00:03:33 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[11-Apr-2017 00:03:33 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[11-Apr-2017 00:03:33 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[11-Apr-2017 00:03:45 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[11-Apr-2017 00:03:45 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[11-Apr-2017 00:04:05 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[11-Apr-2017 00:04:05 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[11-Apr-2017 00:04:09 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchalbum.php on line 40
+[11-Apr-2017 00:04:09 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchalbum.php on line 40
+[11-Apr-2017 00:04:13 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[11-Apr-2017 00:04:13 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[11-Apr-2017 00:04:20 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[11-Apr-2017 00:04:20 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[11-Apr-2017 00:04:33 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[11-Apr-2017 00:04:33 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchreview.php on line 43
+[11-Apr-2017 00:04:47 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[11-Apr-2017 00:04:47 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[11-Apr-2017 00:05:05 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[11-Apr-2017 00:05:05 UTC] PHP Notice:  Use of undefined constant year - assumed 'year' in /home/projbsn/public_html/adminpage.php on line 35
+[11-Apr-2017 00:05:05 UTC] PHP Notice:  Use of undefined constant mon - assumed 'mon' in /home/projbsn/public_html/adminpage.php on line 35
+[11-Apr-2017 00:05:05 UTC] PHP Notice:  Use of undefined constant mday - assumed 'mday' in /home/projbsn/public_html/adminpage.php on line 35
+[11-Apr-2017 00:05:05 UTC] PHP Notice:  Undefined variable: year in /home/projbsn/public_html/adminpage.php on line 52
+[11-Apr-2017 00:05:05 UTC] PHP Notice:  Undefined variable: sales in /home/projbsn/public_html/adminpage.php on line 55
+[11-Apr-2017 00:05:05 UTC] PHP Notice:  Undefined variable: genre in /home/projbsn/public_html/adminpage.php on line 58
+[11-Apr-2017 00:05:05 UTC] PHP Notice:  Undefined variable: length in /home/projbsn/public_html/adminpage.php on line 61
+[11-Apr-2017 00:05:05 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/adminpage.php on line 132
+[11-Apr-2017 00:05:05 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/adminpage.php on line 132
+[11-Apr-2017 00:10:50 UTC] PHP Notice:  Use of undefined constant year - assumed 'year' in /home/projbsn/public_html/adminpage.php on line 35
+[11-Apr-2017 00:10:50 UTC] PHP Notice:  Use of undefined constant mon - assumed 'mon' in /home/projbsn/public_html/adminpage.php on line 35
+[11-Apr-2017 00:10:50 UTC] PHP Notice:  Use of undefined constant mday - assumed 'mday' in /home/projbsn/public_html/adminpage.php on line 35
+[11-Apr-2017 00:10:50 UTC] PHP Notice:  Undefined index: Logout in /home/projbsn/public_html/adminpage.php on line 40
+[11-Apr-2017 00:10:50 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/adminpage.php on line 132
+[11-Apr-2017 00:10:50 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/adminpage.php on line 132
+[11-Apr-2017 00:11:06 UTC] PHP Notice:  Use of undefined constant year - assumed 'year' in /home/projbsn/public_html/adminpage.php on line 35
+[11-Apr-2017 00:11:06 UTC] PHP Notice:  Use of undefined constant mon - assumed 'mon' in /home/projbsn/public_html/adminpage.php on line 35
+[11-Apr-2017 00:11:06 UTC] PHP Notice:  Use of undefined constant mday - assumed 'mday' in /home/projbsn/public_html/adminpage.php on line 35
+[11-Apr-2017 00:11:06 UTC] PHP Notice:  Undefined index: Album in /home/projbsn/public_html/adminpage.php on line 41
+[11-Apr-2017 00:11:06 UTC] PHP Notice:  Undefined index: Artist in /home/projbsn/public_html/adminpage.php on line 42
+[11-Apr-2017 00:11:06 UTC] PHP Notice:  Undefined index: Song in /home/projbsn/public_html/adminpage.php on line 43
+[11-Apr-2017 00:11:06 UTC] PHP Notice:  Undefined index: RealName in /home/projbsn/public_html/adminpage.php on line 44
+[11-Apr-2017 00:11:06 UTC] PHP Notice:  Undefined index: Length in /home/projbsn/public_html/adminpage.php on line 45
+[11-Apr-2017 00:11:06 UTC] PHP Notice:  Undefined index: Year in /home/projbsn/public_html/adminpage.php on line 46
+[11-Apr-2017 00:11:06 UTC] PHP Notice:  Undefined index: Genre in /home/projbsn/public_html/adminpage.php on line 47
+[11-Apr-2017 00:11:06 UTC] PHP Notice:  Undefined index: Sales in /home/projbsn/public_html/adminpage.php on line 48
+[11-Apr-2017 00:11:34 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[11-Apr-2017 00:11:34 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[11-Apr-2017 00:12:03 UTC] PHP Notice:  Undefined index: Logout in /home/projbsn/public_html/moderatorpage.php on line 36
+[11-Apr-2017 00:12:04 UTC] PHP Notice:  Undefined index: ReviewID in /home/projbsn/public_html/moderatorpage.php on line 37
+[11-Apr-2017 00:12:04 UTC] PHP Notice:  Undefined index: Add in /home/projbsn/public_html/moderatorpage.php on line 38
+[11-Apr-2017 00:12:11 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[11-Apr-2017 00:12:11 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[11-Apr-2017 00:12:11 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[11-Apr-2017 00:12:11 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[11-Apr-2017 00:12:11 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[11-Apr-2017 00:12:15 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/review.php on line 44
+[11-Apr-2017 00:12:15 UTC] PHP Notice:  Undefined index: type in /home/projbsn/public_html/review.php on line 52
+[11-Apr-2017 00:12:15 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/review.php on line 53
+[11-Apr-2017 00:12:15 UTC] PHP Notice:  Undefined index: review in /home/projbsn/public_html/review.php on line 54
+[11-Apr-2017 00:12:15 UTC] PHP Notice:  Undefined index: otherID in /home/projbsn/public_html/review.php on line 55
+[11-Apr-2017 00:12:15 UTC] PHP Notice:  Undefined variable: rating in /home/projbsn/public_html/review.php on line 63
+[11-Apr-2017 00:12:15 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[11-Apr-2017 00:12:15 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/review.php on line 84
+[11-Apr-2017 00:12:38 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/rate.php on line 44
+[11-Apr-2017 00:12:38 UTC] PHP Notice:  Undefined index: type in /home/projbsn/public_html/rate.php on line 53
+[11-Apr-2017 00:12:38 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/rate.php on line 54
+[11-Apr-2017 00:12:38 UTC] PHP Notice:  Undefined index: rating in /home/projbsn/public_html/rate.php on line 55
+[11-Apr-2017 00:12:38 UTC] PHP Notice:  Undefined index: otherID in /home/projbsn/public_html/rate.php on line 56
+[11-Apr-2017 00:12:38 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/rate.php on line 78
+[11-Apr-2017 00:12:38 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/rate.php on line 78
+[11-Apr-2017 00:12:48 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/follow.php on line 43
+[11-Apr-2017 00:12:48 UTC] PHP Notice:  Undefined index: followid in /home/projbsn/public_html/follow.php on line 51
+[11-Apr-2017 00:12:48 UTC] PHP Notice:  Undefined index: unfollowid in /home/projbsn/public_html/follow.php on line 56
+[11-Apr-2017 00:12:48 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/follow.php on line 65
+[11-Apr-2017 00:12:48 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/follow.php on line 65
+[11-Apr-2017 00:12:56 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/recommend.php on line 44
+[11-Apr-2017 00:12:56 UTC] PHP Notice:  Undefined index: songname in /home/projbsn/public_html/recommend.php on line 53
+[11-Apr-2017 00:12:56 UTC] PHP Notice:  Undefined index: artistID in /home/projbsn/public_html/recommend.php on line 54
+[11-Apr-2017 00:12:56 UTC] PHP Notice:  Undefined index: recommendID in /home/projbsn/public_html/recommend.php on line 55
+[11-Apr-2017 00:12:56 UTC] PHP Notice:  Undefined index: message in /home/projbsn/public_html/recommend.php on line 56
+[11-Apr-2017 00:12:56 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/recommend.php on line 69
+[11-Apr-2017 00:12:56 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/recommend.php on line 69
+[11-Apr-2017 00:18:37 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchsong.php on line 24
+[11-Apr-2017 00:18:37 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[11-Apr-2017 00:18:37 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[11-Apr-2017 00:18:43 UTC] PHP Notice:  Undefined index: UserID in /home/projbsn/public_html/searchuser.php on line 24
+[11-Apr-2017 00:18:43 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[11-Apr-2017 00:18:43 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[11-Apr-2017 00:20:05 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[11-Apr-2017 00:20:05 UTC] PHP Notice:  Use of undefined constant mod - assumed 'mod' in /home/projbsn/public_html/loginform.php on line 80
+[11-Apr-2017 00:20:05 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[11-Apr-2017 00:20:05 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[11-Apr-2017 00:20:05 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[11-Apr-2017 00:21:18 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[11-Apr-2017 00:21:18 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchuser.php on line 42
+[11-Apr-2017 00:35:54 UTC] PHP Notice:  Undefined variable: Logout in /home/projbsn/public_html/userpage.php on line 43
+[11-Apr-2017 00:35:54 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[11-Apr-2017 00:35:54 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/userpage.php on line 54
+[11-Apr-2017 00:39:39 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[11-Apr-2017 00:39:39 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchsong.php on line 41
+[11-Apr-2017 00:39:42 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[11-Apr-2017 00:39:42 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/searchartist.php on line 42
+[11-Apr-2017 00:39:58 UTC] PHP Notice:  Use of undefined constant admin - assumed 'admin' in /home/projbsn/public_html/loginform.php on line 66
+[11-Apr-2017 00:39:58 UTC] PHP Notice:  Use of undefined constant year - assumed 'year' in /home/projbsn/public_html/adminpage.php on line 35
+[11-Apr-2017 00:39:58 UTC] PHP Notice:  Use of undefined constant mon - assumed 'mon' in /home/projbsn/public_html/adminpage.php on line 35
+[11-Apr-2017 00:39:58 UTC] PHP Notice:  Use of undefined constant mday - assumed 'mday' in /home/projbsn/public_html/adminpage.php on line 35
+[11-Apr-2017 00:39:58 UTC] PHP Notice:  Undefined variable: year in /home/projbsn/public_html/adminpage.php on line 52
+[11-Apr-2017 00:39:58 UTC] PHP Notice:  Undefined variable: sales in /home/projbsn/public_html/adminpage.php on line 55
+[11-Apr-2017 00:39:58 UTC] PHP Notice:  Undefined variable: genre in /home/projbsn/public_html/adminpage.php on line 58
+[11-Apr-2017 00:39:58 UTC] PHP Notice:  Undefined variable: length in /home/projbsn/public_html/adminpage.php on line 61
+[11-Apr-2017 00:39:58 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/adminpage.php on line 132
+[11-Apr-2017 00:39:58 UTC] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/projbsn/public_html/adminpage.php on line 132
