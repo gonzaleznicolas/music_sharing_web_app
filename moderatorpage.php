@@ -7,7 +7,7 @@ if ($_SESSION["UserID"] == NULL) {
     exit();
 }
 if ($_SESSION["Mode"] != "Mod") {
-    header("Location: http://projbsn.cpsc.ucalgary.ca/loginpage.php");
+    header("Location: http://projbsn.cpsc.ucalgary.ca/loginform.php");
     exit();
 }
 ?>

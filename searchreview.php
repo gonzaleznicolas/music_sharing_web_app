@@ -137,16 +137,25 @@ session_start();
                             echo "Average Rating: ".$avgrating."<br>";
                             echo "<br><strong><i>Reviews:</i></strong><br>";
 
+
+                            
+                            
                             // find reviews for this artist
-                            $reviews = $conn->query("SELECT Content, UserWhoWrote FROM review WHERE ArtistID = '$artistid' AND AlbumName IS NULL AND SongName IS NULL;");
+                            $reviews = $conn->query("SELECT ReviewID, Content, UserWhoWrote FROM review WHERE ArtistID = '$artistid' AND AlbumName IS NULL AND SongName IS NULL;");
                             if($reviews->num_rows >0){
                                 while($row4 = $reviews->fetch_assoc())
                                 {
-                                    echo "<br><strong>User # </strong>".$row4["UserWhoWrote"]."<strong> wrote:</strong><br>";
-                                    echo $row4["Content"];
-                                    echo "<br>";
+                                    $temp = $row4["ReviewID"];
+                                    $flagged = $conn->query("SELECT * FROM flag WHERE ReviewID = '$temp';");
+                                    if($flagged->num_rows == 0) // i.e. if the review has not been flagged, display it
+                                    {
+                                        echo "<br><strong>User # </strong>".$row4["UserWhoWrote"]."<strong> wrote review #</strong>".$row4["ReviewID"].":<br>";
+                                        echo $row4["Content"];
+                                        echo "<br>";
+                                    }
                                 }
                             }
+
 
                             echo "<br>";
                         }
@@ -189,14 +198,20 @@ session_start();
                             echo "Average Rating: ".$avgrating."<br>";
 
 
+
                             // find reviews for this album
-                            $reviews = $conn->query("SELECT Content, UserWhoWrote FROM review WHERE ArtistID = '$artistid' AND AlbumName='$option' AND SongName IS NULL;");
+                            $reviews = $conn->query("SELECT ReviewID, Content, UserWhoWrote FROM review WHERE ArtistID = '$artistid' AND AlbumName='$option' AND SongName IS NULL;");
                             if($reviews->num_rows >0){
                                 while($row4 = $reviews->fetch_assoc())
                                 {
-                                    echo "<br><strong>User # </strong>".$row4["UserWhoWrote"]."<strong> wrote:</strong><br>";
-                                    echo $row4["Content"];
-                                    echo "<br>";
+                                    $temp = $row4["ReviewID"];
+                                    $flagged = $conn->query("SELECT * FROM flag WHERE ReviewID = '$temp';");
+                                    if($flagged->num_rows == 0) // i.e. if the review has not been flagged, display it
+                                    {
+                                        echo "<br><strong>User # </strong>".$row4["UserWhoWrote"]."<strong> wrote review #</strong>".$row4["ReviewID"].":<br>";
+                                        echo $row4["Content"];
+                                        echo "<br>";
+                                    }
                                 }
                             }
 
@@ -241,14 +256,21 @@ session_start();
                             echo "Average Rating: ".$avgrating."<br>";
 
 
+
                             // find reviews for this song
-                            $reviews = $conn->query("SELECT Content, UserWhoWrote FROM review WHERE ArtistID = '$artistid' AND SongName='$option' AND AlbumName IS NULL;");
+
+                            $reviews = $conn->query("SELECT ReviewID, Content, UserWhoWrote FROM review WHERE ArtistID = '$artistid' AND SongName='$option' AND AlbumName IS NULL;");
                             if($reviews->num_rows >0){
                                 while($row4 = $reviews->fetch_assoc())
                                 {
-                                    echo "<br><strong>User # </strong>".$row4["UserWhoWrote"]."<strong> wrote:</strong><br>";
-                                    echo $row4["Content"];
-                                    echo "<br>";
+                                    $temp = $row4["ReviewID"];
+                                    $flagged = $conn->query("SELECT * FROM flag WHERE ReviewID = '$temp';");
+                                    if($flagged->num_rows == 0) // i.e. if the review has not been flagged, display it
+                                    {
+                                        echo "<br><strong>User # </strong>".$row4["UserWhoWrote"]."<strong> wrote review #</strong>".$row4["ReviewID"].":<br>";
+                                        echo $row4["Content"];
+                                        echo "<br>";
+                                    }
                                 }
                             }
 

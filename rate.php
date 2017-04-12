@@ -109,7 +109,7 @@ if ($_SESSION["UserID"] == NULL) {
         <i><b>You may optionally rate an Album or a Song (Still specify the artist!).</i></b><br>
         <form action="rate.php" method="post">
             *Artist ID: <input type="text" name="artistID">&nbsp;&nbsp;&nbsp;&nbsp; 
-            *Rating: <input type="text" name="rating"><br>
+            *Rating (0-5): <input type="text" name="rating"><br>
             If not rating artist: 
                 <select name="type">
                     <option value="null"> </option>
