@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <!--
 471 Group
 -->
 <html>
     <head>
-        <link rel="stylesheet" href="styles/homepage.css">
+        <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
         <title>Music Sharing-Home Page</title>
         <style>
