@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net
 --
 -- Host: localhost:3306
--- Generation Time: Apr 08, 2017 at 01:34 PM
+-- Generation Time: Apr 12, 2017 at 08:26 AM
 -- Server version: 10.0.30-MariaDB
 -- PHP Version: 5.6.30
 
@@ -38,9 +38,9 @@ CREATE TABLE IF NOT EXISTS `admin` (
 --
 
 INSERT INTO `admin` (`AdminID`, `Name`, `Password`) VALUES
-(1, 'Bob The Administrator', NULL),
-(2, 'Sally the db administrato', NULL),
-(3, 'John The Admin of Databas', NULL);
+(1, 'Ned', 'pass1'),
+(2, 'Fred', 'pass2'),
+(3, 'Ted', 'pass3');
 
 -- --------------------------------------------------------
 
@@ -66,7 +66,13 @@ CREATE TABLE IF NOT EXISTS `album` (
 
 INSERT INTO `album` (`AlbumName`, `ArtistID`, `AdminWhoAddedID`, `Year`, `Sales`, `AddedDate`) VALUES
 ('2005 mixtape', 2, 1, 2003, 4543, '2005-04-06'),
-('Views', 1, 3, 2016, 346256, '2016-10-08');
+('Back in Black', 5, 3, 1980, 687642, '2017-04-10'),
+('Drake 2.0', 1, 2, 2012, 50000, '2012-10-09'),
+('led zepellin one', 8, 1, 2000, 123465, '2017-04-12'),
+('Morning View', 6, 1, 2001, 12345, '2017-04-10'),
+('Rihannas First Album', 4, 1, 2005, 2147483647, '2017-04-10'),
+('The Resistance', 3, 1, 2009, 100000, '2017-04-11'),
+('Views', 1, 3, 2016, 34545, '2017-04-11');
 
 -- --------------------------------------------------------
 
@@ -89,7 +95,8 @@ CREATE TABLE IF NOT EXISTS `album_rating` (
 --
 
 INSERT INTO `album_rating` (`AlbumName`, `ArtistID`, `ByUserID`, `Rating`) VALUES
-('Views', 1, 3, 5);
+('2005 mixtape', 2, 1, 5),
+('The Resistance', 3, 2, 5);
 
 -- --------------------------------------------------------
 
@@ -102,18 +109,24 @@ CREATE TABLE IF NOT EXISTS `artist` (
   `AdminWhoAddedID` int(11) DEFAULT NULL,
   `StageName` varchar(25) DEFAULT NULL,
   `RealName` varchar(25) DEFAULT NULL,
-  `AddedDate` datetime DEFAULT NULL,
+  `AddedDate` date DEFAULT NULL,
   PRIMARY KEY (`ArtistID`),
   KEY `FK6` (`AdminWhoAddedID`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=25 ;
 
 --
 -- Dumping data for table `artist`
 --
 
 INSERT INTO `artist` (`ArtistID`, `AdminWhoAddedID`, `StageName`, `RealName`, `AddedDate`) VALUES
-(1, 1, 'Drake', 'Aubrey Graham', '2017-01-01 00:00:00'),
-(2, 3, 'Eminem', 'Marshall Mathers', '2002-03-22 00:00:00');
+(1, 1, 'Drake', 'Aubrey Graham', '2017-01-01'),
+(2, 3, 'Eminem', 'Marshall Mathers', '2002-03-22'),
+(3, 1, 'Muse', 'Muse', '2000-02-02'),
+(4, 1, 'Rihanna', 'Robyn Rihanna', '2017-04-10'),
+(5, 3, 'ACDC', 'ACDC', '2017-04-10'),
+(6, 1, 'Incubus', 'Incubus', '2017-04-10'),
+(7, 1, 'Maroon 5', '', '2017-04-12'),
+(8, 1, 'Led Zepellin', '', '2017-04-12');
 
 -- --------------------------------------------------------
 
@@ -135,7 +148,9 @@ CREATE TABLE IF NOT EXISTS `artist_rating` (
 
 INSERT INTO `artist_rating` (`ArtistID`, `ByUserID`, `Rating`) VALUES
 (1, 1, 5),
-(2, 1, 3);
+(1, 2, 2),
+(2, 1, 3),
+(3, 2, 5);
 
 -- --------------------------------------------------------
 
@@ -155,7 +170,13 @@ CREATE TABLE IF NOT EXISTS `flag` (
 --
 
 INSERT INTO `flag` (`ModID`, `ReviewID`) VALUES
-(1, 1);
+(1, 2),
+(1, 19),
+(1, 23),
+(1, 34),
+(1, 45),
+(2, 38),
+(2, 40);
 
 -- --------------------------------------------------------
 
@@ -175,33 +196,7 @@ CREATE TABLE IF NOT EXISTS `following` (
 --
 
 INSERT INTO `following` (`FollowerID`, `FolloweeID`) VALUES
-(1, 2),
-(1, 3),
-(2, 1),
-(3, 2);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `listened`
---
-
-CREATE TABLE IF NOT EXISTS `listened` (
-  `SongName` varchar(25) NOT NULL DEFAULT 'Not Yet Chosen',
-  `ArtistID` int(11) NOT NULL,
-  `UserID` int(11) NOT NULL,
-  `NumTimes` int(11) DEFAULT NULL,
-  PRIMARY KEY (`SongName`,`ArtistID`,`UserID`),
-  KEY `FK14` (`ArtistID`),
-  KEY `FK15` (`UserID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `listened`
---
-
-INSERT INTO `listened` (`SongName`, `ArtistID`, `UserID`, `NumTimes`) VALUES
-('Controlla', 1, 1, 56);
+(1, 2);
 
 -- --------------------------------------------------------
 
@@ -221,8 +216,8 @@ CREATE TABLE IF NOT EXISTS `moderator` (
 --
 
 INSERT INTO `moderator` (`ModID`, `Name`, `Password`) VALUES
-(1, 'Edward the moderator', NULL),
-(3, 'Jacobine - Moderator of D', NULL);
+(1, 'Edward the moderator', 'pass1'),
+(2, 'Jacobine - Moderator of D', 'pass2');
 
 -- --------------------------------------------------------
 
@@ -243,14 +238,16 @@ CREATE TABLE IF NOT EXISTS `recommendation` (
   KEY `FK11` (`ByUserID`),
   KEY `FK12` (`ForUserID`),
   KEY `FK10` (`ArtistID`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=19 ;
 
 --
 -- Dumping data for table `recommendation`
 --
 
 INSERT INTO `recommendation` (`RecomID`, `SongName`, `ArtistID`, `ByUserID`, `ForUserID`, `Message`, `Date`) VALUES
-(1, 'The Real Slim Shady', 2, 1, 3, 'Check this out man!', '2017-02-04');
+(16, 'ubrella', 4, 1, 3, 'I think you like', NULL),
+(17, 'Summer Time', 1, 3, 1, 'Yooo this song is so good! Listen to it man...', NULL),
+(18, 'back in black', 5, 1, 4, 'listen to this!', NULL);
 
 -- --------------------------------------------------------
 
@@ -265,22 +262,38 @@ CREATE TABLE IF NOT EXISTS `review` (
   `Content` varchar(500) DEFAULT NULL,
   `SongName` varchar(25) DEFAULT NULL,
   `ArtistID` int(11) DEFAULT NULL,
-  `AlbumName` varchar(25) NOT NULL,
+  `AlbumName` varchar(25) DEFAULT NULL,
   `UserWhoWrote` int(11) NOT NULL,
   PRIMARY KEY (`ReviewID`),
   KEY `FK16` (`SongName`),
   KEY `FK17` (`ArtistID`),
   KEY `FK18` (`AlbumName`),
   KEY `FK19` (`UserWhoWrote`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='If SongName and AlbumName are NULL, the review is about the artist. If only SongName is null, the review is about the album. if only album name is NULL, the review is about the song.' AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='If SongName and AlbumName are NULL, the review is about the artist. If only SongName is null, the review is about the album. if only album name is NULL, the review is about the song.' AUTO_INCREMENT=46 ;
 
 --
 -- Dumping data for table `review`
 --
 
 INSERT INTO `review` (`ReviewID`, `DatePosted`, `TimePosted`, `Content`, `SongName`, `ArtistID`, `AlbumName`, `UserWhoWrote`) VALUES
-(1, '2017-03-30', '03:47:00', 'This is an extremely average song!!! :D', 'Controlla', 1, 'Views', 1),
-(2, '2017-04-04', '12:12:12', 'Sweet', 'Controlla', 1, 'Views', 2);
+(2, '2017-04-09', '11:22:50', 'f**k s**t c**t. I''m an angry reviewer!', 'Back in Black', 5, NULL, 1),
+(3, '1243-04-04', '03:55:00', 'Wow. Just wow. this artist is amazing', NULL, 2, NULL, 1),
+(19, '2017-04-10', '12:04:47', 'Oh my gosh i have a huge crush on drakeeee', NULL, 1, 'Drake 2.0', 1),
+(20, '2017-04-10', '12:13:24', 'THIS BAND IS SO COOL!!', NULL, 3, NULL, 1),
+(23, '2017-04-10', '12:39:51', 'eminem is gud', NULL, 2, NULL, 1),
+(33, '2017-04-11', '08:41:20', 'I think they are one of the greatest bands on earth', NULL, 3, NULL, 3),
+(34, '1243-04-04', '03:55:00', 'I HATE THIS BAD F****', NULL, 2, NULL, 1),
+(35, '2017-04-11', '09:50:00', 'Drake is quite good. Deserves his fame.', NULL, 1, NULL, 1),
+(36, '2017-04-11', '09:56:33', 'Eminem is a rap god... Wish he would never retire!', NULL, 2, NULL, 1),
+(37, '2017-04-11', '09:59:02', 'Eminem is a rap god... Wish he would never retire!', NULL, 2, NULL, 1),
+(38, '2017-04-11', '10:01:14', 'eminem, bro, this album was a huge disappointment man. I HATE YOU', NULL, 2, '2005 mixtape', 2),
+(39, '2017-04-11', '10:09:19', 'ACDC IS JUST AWFUL F***', NULL, 5, NULL, 2),
+(40, '2017-04-11', '10:11:54', '**** **** ****!!!!!', 'Back in Black', 5, NULL, 2),
+(41, '2017-04-11', '10:12:00', '**** **** ****!!!!!', 'Back in Black', 5, NULL, 2),
+(42, '2017-04-11', '10:12:36', '**** **** ****!!!!!', 'Back in Black', 5, NULL, 2),
+(43, '2017-04-12', '12:12:38', 'abcdef', 'back in black', 3, NULL, 4),
+(44, '2017-04-12', '12:12:59', 'abcdef', 'back in black', 5, NULL, 4),
+(45, '2017-04-12', '12:16:59', 'inappropriate', NULL, 1, NULL, 4);
 
 -- --------------------------------------------------------
 
@@ -307,8 +320,16 @@ CREATE TABLE IF NOT EXISTS `song` (
 --
 
 INSERT INTO `song` (`SongName`, `ArtistID`, `AlbumName`, `AdminWhoAddedID`, `Genre`, `Length`, `AddedDate`) VALUES
-('Controlla', 1, 'Views', 3, 'Rap', 34, '2016-10-22'),
-('The Real Slim Shady', 2, '2005 mixtape', 2, 'Rap', 453, '2005-04-08');
+('another song', 8, 'led zepellin one', 1, 'rock', 3, '2017-04-12'),
+('Back in Black', 5, 'Back in Black', 3, 'Hard Rock', 342, '2017-04-10'),
+('Controlla', 1, 'Views', 3, 'Rap', 342, '2017-04-11'),
+('dazed and confused', 8, 'led zepellin one', 1, 'rock', 3, '2017-04-12'),
+('Summer Time', 1, 'Views', 1, 'Rap', 235, '2017-04-11'),
+('The Real Slim Shady', 2, '2005 mixtape', 2, 'Rap', 453, '2005-04-08'),
+('Thunderstruck', 5, 'Back in Black', 3, 'Hard Rock', 453, '2017-04-10'),
+('U With Me', 1, 'Views', 1, 'Rap', 987, '2017-04-11'),
+('Ubrella', 4, 'Rihannas First Album', 1, 'Pop', 435, '2017-04-10'),
+('You Shook me All Night Lo', 5, 'Back in Black', 1, 'Rock', 435, '2017-04-11');
 
 -- --------------------------------------------------------
 
@@ -331,7 +352,8 @@ CREATE TABLE IF NOT EXISTS `song_rating` (
 --
 
 INSERT INTO `song_rating` (`SongName`, `ArtistID`, `ByUserID`, `Rating`) VALUES
-('Controlla', 1, 1, 2);
+('Back in Black', 5, 2, 3),
+('Controlla', 1, 2, 3);
 
 -- --------------------------------------------------------
 
@@ -345,25 +367,17 @@ CREATE TABLE IF NOT EXISTS `user` (
   `Name` varchar(25) DEFAULT NULL,
   `Password` varchar(32) CHARACTER SET utf32 COLLATE utf32_bin DEFAULT NULL,
   PRIMARY KEY (`UserID`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=13 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=26 ;
 
 --
 -- Dumping data for table `user`
 --
 
 INSERT INTO `user` (`UserID`, `DOB`, `Name`, `Password`) VALUES
-(1, '1864-10-09', 'Nicolas Gonzalez', 'boo'),
-(2, '1962-07-08', 'Ali Ahmed', NULL),
-(3, '1989-02-02', 'Metch Rands', NULL),
-(4, '2017-04-07', 'foo', 'bar'),
-(5, NULL, NULL, NULL),
-(6, NULL, NULL, NULL),
-(7, '0000-00-00', NULL, 'oklshjdflkjs'),
-(8, '1995-10-20', NULL, 'sdfsd'),
-(9, '1995-10-20', 'Spock', 'kdnjkfl'),
-(10, '0000-00-00', '', ''),
-(11, '0000-00-00', '', ''),
-(12, '0000-00-00', '', '');
+(1, '1864-10-09', 'Nicolas', 'pass1'),
+(2, '1900-05-05', 'Brenton', 'pass2'),
+(3, '1550-12-12', 'Sean', 'pass3'),
+(4, '0000-00-00', 'Animesh', 'abc');
 
 -- --------------------------------------------------------
 
@@ -384,8 +398,9 @@ CREATE TABLE IF NOT EXISTS `user_warning` (
 --
 
 INSERT INTO `user_warning` (`ModID`, `UserID`, `NumStrikes`) VALUES
-(1, 2, 2),
-(1, 3, 1);
+(1, 1, 4),
+(1, 4, 1),
+(2, 2, 2);
 
 --
 -- Constraints for dumped tables
@@ -432,14 +447,6 @@ ALTER TABLE `flag`
 ALTER TABLE `following`
   ADD CONSTRAINT `FK7` FOREIGN KEY (`FollowerID`) REFERENCES `user` (`UserID`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `FK8` FOREIGN KEY (`FolloweeID`) REFERENCES `user` (`UserID`) ON DELETE CASCADE ON UPDATE CASCADE;
-
---
--- Constraints for table `listened`
---
-ALTER TABLE `listened`
-  ADD CONSTRAINT `FK13` FOREIGN KEY (`SongName`) REFERENCES `song` (`SongName`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `FK14` FOREIGN KEY (`ArtistID`) REFERENCES `song` (`ArtistID`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `FK15` FOREIGN KEY (`UserID`) REFERENCES `user` (`UserID`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Constraints for table `recommendation`
